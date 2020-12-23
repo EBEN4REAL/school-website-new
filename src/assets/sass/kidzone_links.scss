@@ -1,0 +1,27 @@
+.kidzone_links_container {
+    padding: 30px;
+    position: relative;
+    img{
+        position: absolute;
+        top:0;
+        right:0
+    }
+    p{
+        text-align: justify;
+    }
+    &.gold-bg {
+        background: $goldColor;
+    }
+    &.green_bg {
+        background: $primaryGreen;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .kidzone_links_container img {
+        width: 92px !important;
+    }
+    .kidzone_links_container.gold-bg {
+        margin-bottom: 15px !important;
+    }
+}

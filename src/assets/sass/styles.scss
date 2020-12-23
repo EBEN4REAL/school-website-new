@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+@import 'variables';
+@import 'utils';
+@import 'header';
+@import 'subscribe';
+@import 'home';
+@import 'about';
+@import 'blogPosts.scss';
+@import 'post.scss';
+@import 'pace.scss';
+@import 'scroll';
+@import 'footer';
+@import 'slider';
+@import 'contact';
+@import 'admission';
+@import 'kidzone_links';
+@import 'gallery';
+@import 'termDates';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 , p, li{
+    font-family: 'Poppins', sans-serif !important;
+    // text-transform: uppercase;
+}
+p{
+    font-family: 'Poppins', sans-serif !important;
+}
+a {
+    text-decoration: none !important;
+}
+.read_more_div {
+    width: 100%;
+    .small {
+        cursor: pointer;
+    }
+}
+.remove-padding-left{
+    padding-left: 0 !important;
+}
+.remove-padding-right{
+    padding-right: 0 !important;
+}
+html {
+    overflow-x: hidden;
+}
+
+.map_location {
+    width: 100%;
+}
