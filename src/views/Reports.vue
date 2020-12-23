@@ -69,7 +69,7 @@ import MasterLayout from '@/views/masterlayout.vue';
 
 
 export default {
-    name: 'Reports',
+    name: 'Report',
     components: {
         MasterLayout
     },

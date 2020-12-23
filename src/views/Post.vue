@@ -1,7 +1,7 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="formatTitle" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="posts_container content_width">
-            <h3 class="section_col_header text-center">{{ formatTitle }}</h3>
+            <h3 class="section_col_header text-center primary-color">{{ formatTitle }}</h3>
             <div class="post_header">
                 <div class="post_date">
                     <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>

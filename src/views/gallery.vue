@@ -5,7 +5,7 @@
                 <button class="gallery_button mr-2" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>
                 <button class="gallery_button mr-2" @click="changeView('pictures')" :class="view == 'pictures' ? ['gallery_button_active'] : null">Pictures</button>
                 <button class="gallery_button mr-2" @click="changeView('videos')" :class="view == 'videos' ? ['gallery_button_active'] : null">Videos</button>
-                <button class="gallery_button mr-2" @click="changeView('bvp')" :class="view == 'bvp' ? ['gallery_button_active'] : null">B.V.P</button>
+                <button class="gallery_button mr-2" @click="changeView('bvp')" :class="view == 'bvp' ? ['gallery_button_active'] : null">British Value Presentation</button>
                 <button class="gallery_button mr-2" @click="changeView('sca')" :class="view == 'sca' ? ['gallery_button_active'] : null">S.C.A Yearly</button>
             </div>
             <section class="row" v-if="view == 'all' || view == 'pictures'">

@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="blog_posts_container content_width">
-            <h3 class="section_col_header text-center">Latest Posts</h3>
+            <h3 class="section_col_header text-center primary-color">Latest Posts</h3>
             <section class="row justify-content-between">
                 <div class="col-md-4" v-for="(blog,i) in blogs" :key="i">
                     <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">

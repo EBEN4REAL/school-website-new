@@ -278,7 +278,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center  primary-color mt-3">
+                    <h3 class="text-center  gold-color mt-3">
                         Welcome Note
                     </h3>
                     <div class="upcoming_event_founder_card pt-4 pl-3 pr-3">
@@ -314,8 +314,7 @@
                                     <small class="section_col_text ">The management of SOL Academy wish you a prosperous Christmas holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.</small>
                                 </div><br>
                                 <div class="flex_display">
-                                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                    <small class="section_col_text ">Latest Covid guidance</small>
+                                    <strong class="section_col_text ">Latest Covid guidance</strong>
                                 </div><br>
                                 <div class="flex_display">
                                     <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -485,16 +484,17 @@ export default {
         sliding: null,
         testVideos: [
             {
-                comment: 'Life at Sol Academy', author: '', video: 'https://res.cloudinary.com/dfjzditzc/video/upload/v1608716314/DVD-Sol_Academy_Testimonial_vcjak1.mov'
+                comment: 'Life at Sol Academy', author: '', video: 'DVD-Sol Academy Testimonial.mp4'
             },
             {
-                comment: 'Sol Academy is another home away from home: Parent Survey.', author: 'The KS2 report: SOL’s Management Board.', video: null
+                comment: 'Sol Academy is another home away from home: Parent Survey.', author: '', video: null
             },
             {
                 comment: 'Pupils attain outstanding progress in their Packets of Accelerated Christian Learning (PACEs) in subjects including English Mathematics, Science, Bible studies and social studies.', video: null 
-            }
-
-            
+            },
+            {
+                comment: 'The KS2 report: SOL’s Management Board.', video: null 
+            } 
         ],
         showVideo: false
       }
