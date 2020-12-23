@@ -15,7 +15,7 @@
                 @sliding-start="onSlideStart"
                 @sliding-end="onSlideEnd"
                 >
-                 <b-carousel-slide img-src="../assets/img/welcome to SOL Academy3.jpg">
+                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732168/welcome_to_SOL_Academy3_wuhxfv.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/SOL Academy Christmas Greetings3.jpg">
+                <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732083/SOL_Academy_Christmas_Greetings3_kcpeoa.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/slider.jpg">
+                <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732076/slider_nco4ps.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/slider 2.jpg">
+                <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732039/slider_2_n2b1om.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                 <b-carousel-slide img-src="../assets/img/slider 9.jpg">
+                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732041/slider_9_ktvaed.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/slider 8.jpg">
+                <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732107/slider_8_uzzxoz.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                 <b-carousel-slide img-src="../assets/img/slider 7.jpg">
+                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732064/slider_7_axtbxf.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                 <b-carousel-slide img-src="../assets/img/slider 4.jpg">
+                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732051/slider_4_endipt.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                 <b-carousel-slide img-src="../assets/img/slider 3.jpg">
+                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/slider_3_haihb9.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/Main slider.jpg">
+                <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608731976/Main_slider_y5ewvo.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -247,19 +247,19 @@
         <section class="boxes_container">
             <section class="card__boxes__wrapper mt-3">
             <div class="card-box">
-                <img src="@/assets/img/star (2).svg"  width="40" />
+                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732086/star_2_lb7q9o.svg"  width="40" />
                 <p class="mt-5 green__text bold_text">Nursery</p>
             </div>
             <div class="card-box">
-                <img src="@/assets/img/student.svg" width="40" />
+                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732091/student_z0j0g9.svg" width="40" />
                 <p class="mt-5 green__text bold_text">Primary</p>
             </div>
             <div class="card-box">
-                <img src="@/assets/img/Outline_7_.svg" width="40" />
+                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731944/Outline_7__djxfqy.svg" width="40" />
                 <p class="mt-5 green__text bold_text">High School</p>
             </div>
             <div class="card-box">
-                <img src="@/assets/img/student (1).svg" width="40"  />
+                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732088/student_1_yhtx1u.svg" width="40"  />
                 <p class="mt-5 green__text bold_text">College</p>
             </div>
         </section>
@@ -289,7 +289,7 @@
                         </small>
                         <div class="row mt-5">
                             <div class="col-md-4 card_subcontent text-right">
-                                <img src="@/assets/img/about-fourth.png" class="img_thumbnail" />
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731869/about-fourth_a1puzn.png" class="img_thumbnail" />
                             </div>
                             <div class="col-md-8 content_title ">
                                 <strong>SOL Academy</strong>
@@ -337,7 +337,7 @@
                      <a href="./Fees_Struture.pdf"  download>
                         <div class="important_resources_box">
                             <div class="circular_div">
-                                <img src="@/assets/img/information.svg"  width="40" />
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731870/information_o1i25i.svg"  width="40" />
                             </div>
                             <p class="mt-3 green__text bold_text resources_content">Fee Structure</p>
                         </div>
@@ -347,7 +347,7 @@
                     <a href="./Calendar 2020_2021.pdf"  download>
                         <div class="important_resources_box">
                             <div class="circular_div">
-                                <img src="@/assets/img/information.svg"  width="40" />
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731870/information_o1i25i.svg"  width="40" />
                             </div>
                             <p class="mt-3 green__text bold_text resources_content">Calendar</p>
                         </div>
@@ -357,7 +357,7 @@
                     <a href="./Application_Form.pdf"  download>
                         <div class="important_resources_box">
                             <div class="circular_div">
-                                <img src="@/assets/img/information.svg"  width="40" />
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731870/information_o1i25i.svg"  width="40" />
                             </div>
                             <p class="mt-3 green__text bold_text resources_content">Application Form</p>
                         </div>
@@ -367,7 +367,7 @@
                      <a href="./Prospectus.pdf"  download>
                         <div class="important_resources_box">
                             <div class="circular_div">
-                                <img src="@/assets/img/information.svg"  width="40" />
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731870/information_o1i25i.svg"  width="40" />
                             </div>
                             <p class="mt-3 green__text bold_text resources_content">Prospectus</p>
                         </div>
@@ -379,7 +379,7 @@
             <h4 class="text-center bold_text header_conten primary-color">Reasons Why You Should Choose Us</h4>
             <div class="mt-5 row align-items-center" id="character">
                 <div class="col-md-6">
-                    <img src="@/assets/img/character.jpg" class="why_img" width="450px"  />
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/character_riivqs.jpg" class="why_img" width="450px"  />
                 </div>
                 <div class="col-md-6">
                     <h4 class="bold_text primary-color">Character</h4>
@@ -400,12 +400,12 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="@/assets/img/Leadership.jpg" class="why_img" width="100%"  />
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731924/Leadership_d5l6mu.jpg" class="why_img" width="100%"  />
                 </div>
             </div>
              <div class="mt-5 row align-items-center" id="academics">
                 <div class="col-md-6">
-                    <img src="@/assets/img/academics.jpg" class="why_img" width="100%"  />
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731977/academics_c8zfrx.jpg" class="why_img" width="100%"  />
                 </div>
                 <div class="col-md-6">
                     <h4 class="bold_text primary-color">Academics</h4>
@@ -445,7 +445,7 @@
                         </video>
                         <div class="ace_curriculum_item last" :class="[!vid.video ? 'width-hundred' : null]">
                             <div class="text-center py-4">
-                                <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2 testimonaial_rate" width="30" />
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731851/grade-24px_1_onwft7.svg" v-for="(a, i) in 5" :key="i" class="mr-2 testimonaial_rate" width="30" />
                             </div>
                             <div class="testimonials__text_container">
                                 <p class="para testimonials__text text-center">

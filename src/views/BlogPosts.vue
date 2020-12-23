@@ -1,12 +1,12 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="blog_posts_container content_width">
             <h3 class="section_col_header text-center">Latest Posts</h3>
             <section class="row justify-content-between">
                 <div class="col-md-4" v-for="(blog,i) in blogs" :key="i">
                     <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">
                         <div class="blog_post">
-                            <img :src="require('@/assets/blogs/' + blog.key + '/images/first.jpg')">
+                            <img :src="blog.img">
                             <div class="post_content_holder">
                                 <div class="post_header">
                                     <div class="post_date">
@@ -38,7 +38,6 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 
 export default {
     name: 'BlogPosts',
@@ -49,8 +48,14 @@ export default {
     data() {
         return {
             title: 'Blog',
-            BgUrl,
-            blogs: [{title: 'Tree Top', key: 'tree-top', content: 'Students having fun in the tree top'}, {title: 'Sports Day', key: 'sports-day', content: 'Students participating in sporting activities on sports day'}, {title: 'SOL Park', key: 'sol-park', content: 'Students at the school park'}, {title: 'SOL Tennis', key: 'sol-tennis', content: 'Students at the tennis court'}, {title: 'Museum', key: 'museum', content: 'Students taking an excursion at a museum'}, {title: 'Legoland', key: 'legoland', content: 'Students having a fun day at legoland'}]
+            blogs: [
+                {title: 'Tree Top', key: 'tree-top', content: 'Students having fun in the tree top', img: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732871/first_mlhpfp.jpg'}, 
+                {title: 'Sports Day', key: 'sports-day', content: 'Students participating in sporting activities on sports day', img: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732759/first_u943km.jpg'}, 
+                {title: 'SOL Park', key: 'sol-park', content: 'Students at the school park', img: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732727/first_y7penx.jpg'}, 
+                {title: 'SOL Tennis', key: 'sol-tennis', content: 'Students at the tennis court', img: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732784/first_bgqzlh.jpg'}, 
+                {title: 'Museum', key: 'museum', content: 'Students taking an excursion at a museum', img: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732685/first_tgyytk.jpg'}, 
+                {title: 'Legoland', key: 'legoland', content: 'Students having a fun day at legoland', img: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732653/first_jifgdq.jpg'}
+            ]
         }
     },
     computed: {

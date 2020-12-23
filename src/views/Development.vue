@@ -13,7 +13,7 @@
                         <p class="section_col_text para">This full-year program is designed for children aged 5–9 who have passed the Pretest. The Pretest helps to determine if a student is ready to learn to read. This program combines Speaking English with Ace and Christi and ABCs with Ace and Christi. It allows students to learn, to read and speak.</p>
                     </div>
                     <div class="col-md-6 remove_about_padding">
-                        <img src="@/assets/img/Reading development.jpg">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732017/Reading_development_xttnkc.jpg">
                     </div>
                 </div>
             </section>
@@ -22,7 +22,7 @@
                     <div class="development_holder align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/bible.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731922/bible_gkb4uo.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -37,7 +37,7 @@
                     <div class="development_holder align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -52,7 +52,7 @@
                     <div class="development_holder align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/distance-learning.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731960/distance-learning_z0fxyy.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -69,8 +69,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/about-us-background-images-for-website-12.png';
-
 
 export default {
     name: 'ReadingDevelopment',
@@ -80,7 +78,7 @@ export default {
     data() {
         return {
             title: 'Reading Development',
-            BgUrl
+            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731883/about-us-background-images-for-website-12_flkxr8.png'
         }
     }
 }

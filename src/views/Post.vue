@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="posts_container content_width">
             <h3 class="section_col_header text-center">{{ formatTitle }}</h3>
             <div class="post_header">
@@ -19,7 +19,7 @@
             <section class="row" v-if="source == 'pictures'">
                 <div class="col-md-6" v-for="(image, i) in images[$route.query.title]" :key="i">
                     <div class="post_card">
-                        <img :src="require('@/assets/blogs/' + $route.query.title + '/images/' + image)"  />
+                        <img :src="image"  />
                     </div>
                 </div>
             </section>
@@ -38,7 +38,7 @@
             <div class="row justify-content-between mt-4">
                 <div class="col-md-4">
                     <div class="blog_post">
-                        <img src="@/assets/img/blog-posts-first.png">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731925/blog-posts-first_wwfo6z.png">
                         <div class="post_content_holder">
                             <div class="post_header">
                                 <div class="post_date">
@@ -63,8 +63,6 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
-
 
 export default {
     name: 'Post',
@@ -76,15 +74,14 @@ export default {
         return {
             title: 'Post',
             postTitle: 'School Update',
-            BgUrl,
             source: 'pictures',
             images: {
-                'tree-top': ['first.jpg', 'second.jpg', 'third.jpg', 'fourth.jpg', 'fifth.jpg'],
-                'sports-day': ['first.jpg', 'second.jpg', 'third.jpg', 'fourth.jpg', 'fifth.jpg'],
-                'sol-park': ['first.jpg', 'second.jpg', 'third.jpg', 'fourth.jpg'],
-                'sol-tennis': ['first.jpg', 'second.jpg', 'third.jpg', 'fourth.jpg'],
-                'museum': ['first.jpg', 'second.jpg', 'third.jpg', 'fourth.jpg'],
-                'legoland': ['first.jpg', 'second.jpg'],
+                'tree-top': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732871/first_mlhpfp.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732866/second_jzvdra.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732856/third_ls1nes.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732853/fourth_hwqvdm.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732876/fifth_k5kh86.jpg'],
+                'sports-day': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732759/first_u943km.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732800/second_mfdrcs.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732802/third_dxxmhb.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732796/fourth_mjlyaf.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732766/fifth_puqleq.jpg'],
+                'sol-park': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732727/first_y7penx.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732722/second_adcaa9.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732723/third_yqcbbe.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732716/fourth_nka3pu.jpg'],
+                'sol-tennis': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732784/first_bgqzlh.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732804/second_rwepsa.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732793/third_dakcef.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732774/fourth_j9d8zr.jpg'],
+                'museum': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732685/first_tgyytk.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732698/second_a6tdqo.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732685/third_zkzg7m.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732682/fourth_tlgkrb.jpg'],
+                'legoland': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732653/first_jifgdq.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732651/second_k3p8ob.jpg'], 
             },
             videos: {
                 'tree-top': ['https://res.cloudinary.com/dfjzditzc/video/upload/v1608717818/first_nbcmeb.mp4'],

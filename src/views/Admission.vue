@@ -153,7 +153,7 @@
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
                                 <div class="icon_centralised_wrapper">
-                                    <img src="@/assets/img/money (4) (1).svg" style="width: 40px;">
+                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731932/money_4_1_h26ftf.svg" style="width: 40px;">
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -173,7 +173,7 @@
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
                                 <div class="icon_centralised_wrapper">
-                                    <img src="@/assets/img/get-money.svg" style="width: 40px;">
+                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731934/money_nf9erm.svg" style="width: 40px;">
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -197,8 +197,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/The-matriculants.png';
-import  OpenBibleBG from '@/assets/img/opened-holy-bible.png';
 
 export default {
     name: 'About',
@@ -208,8 +206,8 @@ export default {
     data() {
         return {
             title: 'Admission',
-            BgUrl,
-            OpenBibleBG
+            BgUrl : 'https://res.cloudinary.com/sol-academy/image/upload/v1608732104/The-matriculants_sar29j.png',
+            OpenBibleBG: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731943/opened-holy-bible_lnuv6e.png'
         }
     }
 }

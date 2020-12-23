@@ -1,11 +1,11 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width uniform_containe">
             <section class="mb-5">
                 <p class="section_col_text para mb-5">We expect students to attend at all times. If a student does not attend school they will not learn. A student's regular attendance and punctuality are a parent's or guardians legal responsibility.</p>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-5 col-lg-12 mb-3 col-md-12 remove_about_padding">
-                        <img src="@/assets/img/Group 2921.svg" width="300px" />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731857/Group_2921_t7vr51.svg" width="300px" />
                     </div>
                     <div class="col-xl-7 col-lg-12 col-md-12 codes">
                         <h3 class="section_col_header primary-color">
@@ -28,9 +28,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
-import backgroundUrl from "@/assets/img/uniform-second.png";
-
 
 export default {
     name: 'Attendance',
@@ -40,8 +37,6 @@ export default {
     data() {
         return {
             title: 'Attendance',
-            backgroundUrl,
-            BgUrl
          }
     }
 }

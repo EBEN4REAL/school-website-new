@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
             <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
                 <div class="play_button">
@@ -25,7 +25,7 @@
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding mar_bot">
-                        <img src="@/assets/img/slider 3.jpg">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/slider_3_haihb9.jpg">
                     </div>
                     <div class="col-xl-7 col-lg-12 col-md-12">
                         <h3 class="section_col_header text-center primary-color">WHAT'S INSIDE</h3>
@@ -54,9 +54,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
-import backgroundUrl from "@/assets/img/ttop_5.jpg";
-
 
 export default {
     name: 'Pace',
@@ -66,8 +63,6 @@ export default {
     data() {
         return {
             title: 'Pace',
-            backgroundUrl,
-            BgUrl,
             showVideo: false
         }
     },

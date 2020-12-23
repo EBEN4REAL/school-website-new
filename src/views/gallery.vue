@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="blog_posts_container content_width">
             <div class="mb-3 text-center">
                 <button class="gallery_button mr-2" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>
@@ -11,52 +11,52 @@
             <section class="row" v-if="view == 'all' || view == 'pictures'">
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/ttop_1.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732144/ttop_1_ystymo.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/ttop_2.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732132/ttop_2_ffap7s.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/ttop_3.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732146/ttop_3_dirzf7.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/ttop_4.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732136/ttop_4_ovkbs6.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/ttop_5.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732163/ttop_5_dkstug.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/sport_1.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732084/sport_1_t20fxe.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/sport_2.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732094/sport_2_dl3x72.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/sport_3.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732098/sport_3_r2bady.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/sport_3.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732098/sport_3_r2bady.jpg"  />
                     </div>
                 </div>
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/sport_4.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732101/sport_4_jv7gxi.jpg"  />
                     </div>
                 </div>
             </section>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-6" >
                     <video controls class="post_image">
-                        <source src="@/assets/videos/gallery3.mp4" type="video/mp4">
+                        <source src="https://res.cloudinary.com/sol-academy/video/upload/v1608742711/gallery3_hce8ZJ1D_a4uqhp.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -83,7 +83,7 @@
             <section class="row" v-if="view == 'all' || view == 'bvp'">
                 <div class="col-md-3" >
                     <div class="gallery_card">
-                        <img src="@/assets/img/ttop_1.jpg"  />
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732144/ttop_1_ystymo.jpg"  />
                     </div>
                 </div>
             </section>
@@ -94,7 +94,6 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 
 export default {
     name: 'BlogPosts',
@@ -105,7 +104,6 @@ export default {
     data() {
         return {
             title: 'Gallery',
-            BgUrl,
             view: 'all'
         }
     },

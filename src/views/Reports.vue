@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
             <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
                 <div class="play_button">
@@ -66,9 +66,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
-import ReportsBgUrl from '@/assets/img/uniform-second.png';
-
 
 
 export default {
@@ -79,8 +76,7 @@ export default {
     data() {
         return {
             title: 'Ofsted Reports',
-            BgUrl,
-            ReportsBgUrl,
+            ReportsBgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608732173/uniform-second_a6qc37.png',
             showVideo: false
         }
     },

@@ -1,6 +1,6 @@
 <template>
         <b-navbar toggleable="md" type="dark"  class="mai-top-header">
-            <b-navbar-brand :to="{ name: 'home' }"><img src="@/assets/img/logo.png" width="60"  /></b-navbar-brand>
+            <b-navbar-brand :to="{ name: 'home' }"><img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731886/logo_qymv7k.png" width="60"  /></b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="mai-top-nav">

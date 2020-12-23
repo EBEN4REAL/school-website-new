@@ -6,7 +6,7 @@
             </div>
             <div class="row mt-4 mb-5">
                 <div class="col-md-4">
-                    <img src="@/assets/img/HomeworkImage.jpg" class="hundred-percent-width" />
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731925/HomeworkImage_hvsdzs.jpg" class="hundred-percent-width" />
                 </div>
                 <div class="col-md-8">
                     <p class="section_col_text para remove_p_bottom_border">Curriculum Leaders are expected to keep a check on the quantity and quality of homework given and marking undertaken by Teachers. Monitor Diaries inform the Supervisors of shortfalls, gaps or overloads in the amount of homework given.
@@ -47,8 +47,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/about-us-background-images-for-website-12.png';
-
 
 export default {
     name: 'About',
@@ -58,7 +56,7 @@ export default {
     data() {
         return {
             title: 'Homework',
-            BgUrl
+            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731883/about-us-background-images-for-website-12_flkxr8.png'
         }
     }
 }

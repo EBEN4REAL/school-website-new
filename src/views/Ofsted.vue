@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
             <div :style="[{
                 backgroundImage: `url('https://res.cloudinary.com/dfjzditzc/image/upload/v1572447495/samples/ecommerce/leather-bag-gray.jpg')`,
@@ -14,7 +14,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 
 
 export default {
@@ -25,7 +24,6 @@ export default {
     data() {
         return {
             title: 'Ofsted',
-            BgUrl
         }
     }
 }

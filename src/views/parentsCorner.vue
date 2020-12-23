@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width policies_container mb-5">
             <div>
                At Sol Christian Academy we stay in close communication with parents and we value good relationships with the parents of our pupils. Many of our parents volunteer their time as classroom assistants, extras on school trips, minibus drivers, dinner ladies, PTA members and teachers of specialist subjects and our hope is that all parents will contribute in some way to the activity of our school.
@@ -11,7 +11,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 
 export default {
     name: 'Policies',
@@ -21,7 +20,6 @@ export default {
     data() {
         return {
             title: 'Parents Corenr',
-            BgUrl
         }
     }
 }

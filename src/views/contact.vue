@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="content_width">
             <div class="row mt-3">
                 <div class="col-lg-5 col-md-4 mt-5 desktop_view">
@@ -7,7 +7,7 @@
                         <div class="row align-item-center mt-4">
                             <div class="col-4 circle_img_container">
                                 <div class="circle_img">
-                                    <img src="@/assets/img/pin (1) (2).svg" alt="" width="30">
+                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731948/pin_1_2_zn5lni.svg" alt="" width="30">
                                 </div>
                             </div>
                             <div class="col-8">
@@ -27,25 +27,25 @@
                                 <h6>Contact Details:</h6>
                             </div>
                             <div class="col-4 text-center">
-                                <img src="@/assets/img/phonecall.svg" alt="" width="20">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731948/phonecall_sxhf1c.svg" alt="" width="20">
                             </div>
                             <div class="col-8">
                                 <p>01616372944</p>
                             </div>
                             <div class="col-4 mt-3 text-center">
-                                <img src="@/assets/img/tel.svg" alt="" width="20">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732093/tel_gf39my.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3">
                                 <p>01616372944</p>
                             </div>
                             <div class="col-4 mt-3 mb-4 text-center">
-                                <img src="@/assets/img/mail.svg" alt="" width="20">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731887/mail_s0plcn.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3">
                                 <p> board@solacademy.org.uk</p>
                             </div>
                             <div class="col-4 mt-3  text-center">
-                                <img src="@/assets/img/mail.svg" alt="" width="20">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731887/mail_s0plcn.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3">
                                 <p> admin@solacademy.org.uk</p>
@@ -57,7 +57,7 @@
                 <div class="col-lg-7 col-md-7">
                     <div class="contact_details form_details text-center p-3 mb-5">
                         <h6>Write to Us
-                        <img src="@/assets/img/mailicon.svg" alt="" class="ml-2" width="30"></h6>
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731925/mailicon_p2lugu.svg" alt="" class="ml-2" width="30"></h6>
                         <span>Need more info?<br>We would love to hear from you. Please send us a message and we will respond as soon as possible.</span>
                         <div class="form_group_details pl-5 pr-5 mt-3 text-left">
                             <form action="https://formspree.io/f/xqkggeag" method="POST">
@@ -94,8 +94,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
-
 
 export default {
     name: 'About',
@@ -105,7 +103,6 @@ export default {
     data() {
         return {
             title: 'Contact Us',
-            BgUrl
         }
     }
 }

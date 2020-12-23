@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="col-md-5 remove_about_padding text-center">
-                        <img src="@/assets/img/School Logo 1.png" style="width:80%">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731980/School_Logo_1_i87czg.png" style="width:80%">
                     </div>
                 </div>
                 
@@ -58,7 +58,7 @@
                     <div class="single_media align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -71,7 +71,7 @@
                     <div class="single_media align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -84,7 +84,7 @@
                     <div class="single_media align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -97,7 +97,7 @@
                     <div class="single_media align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                             </div>
                             
                         </div>
@@ -120,7 +120,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/CurriculumSlider.jpg';
 
 
 export default {
@@ -131,7 +130,7 @@ export default {
     data() {
         return {
             title: 'Curriculum',
-            BgUrl
+            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731931/CurriculumSlider_yifixj.jpg'
         }
     }
 }

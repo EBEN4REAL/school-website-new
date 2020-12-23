@@ -1,11 +1,11 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width uniform_container">
             <p class="section_col_text para">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-6 col-lg-12 mb-3 col-md-12 remove_about_padding">
-                        <img src="@/assets/img/Group 3004.svg">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731859/Group_3004_di4wr8.svg">
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12 codes">
                         <h3 class="section_col_header text-center primary-color">DRESS CODE AND GENERAL GUIDELINES</h3>
@@ -50,19 +50,19 @@
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
                         <splide :options="options">
                             <splide-slide>
-                                <img src="@/assets/img/Uniform 1.jpg" width="100%" >
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732161/Uniform_1_lckzjk.jpg" width="100%" >
                             </splide-slide>
                             <splide-slide>
-                                <img src="@/assets/img/Uniform 2.jpg" width="100%" >
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732164/Uniform_2_h5llg3.jpg" width="100%" >
                             </splide-slide>
                             <splide-slide>
-                                <img src="@/assets/img/Uniform 3.jpg" width="100%"  >
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732180/Uniform_3_i9n4de.jpg" width="100%"  >
                             </splide-slide>
                             <splide-slide>
-                                <img src="@/assets/img/Uniform 4.jpg" width="100%" >
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732179/Uniform_4_sgeljx.jpg" width="100%" >
                             </splide-slide>
                             <splide-slide>
-                                <img src="@/assets/img/Uniform 5.jpg" width="100%" >
+                                <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732180/Uniform_5_svbhix.jpg" width="100%" >
                             </splide-slide>
                         </splide>
                     </div>
@@ -86,7 +86,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
@@ -101,7 +100,6 @@ export default {
     data() {
         return {
             title: 'UNIFORM',
-            BgUrl,
             options: {
                 rewind : true,
                 width  : 800,

@@ -5,7 +5,7 @@
                 <h3 class="section_col_header text-center py-4 primary-color">Message from the HeadMistress</h3>
                 <div class="row">
                     <div class="col-xl-4 col-lg-12 col-md-12 remove_about_padding fourth_about_image">
-                        <img src="@/assets/img/Headteacher Pic (1).jpg">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731921/Headteacher_Pic_1_csgwyr.jpg">
                     </div>
                     <div class="col-xl-8 col-lg-12 col-md-12">
                         <p class="section_col_text para ">Sol Christian Academy is an independent, fee paying, faith school based in Greater Manchester in Manchester. We have been offering a Christian education to children between the ages of three and eighteen since 2013. During this time we have been privileged to share the formative years of many children from different backgrounds, nationalities and cultures and, we believe, have added great value to their young lives.
@@ -26,12 +26,12 @@
                     <p class="section_col_text para">The Academy is anchored on the principle of cooperation, which depends on trust and commitment, where parents and teachers help and support one another, pooling resources of time, gifts and finances to provide excellent individualized Christian education to children</p>
                 </div>
                 <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding">
-                    <img src="@/assets/img/SOL VISION4.jpg">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732067/SOL_VISION4_efvm2p.jpg">
                 </div>
             </section>
             <section class="row justify-content-between align-items-center content_width">
                 <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding mar_bot">
-                    <img src="@/assets/img/SOL'S AIM1.jpg">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732069/SOL_S_AIM1_gotcyc.jpg">
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12">
                     <h3 class="section_col_header primary-color">Our Aim</h3>
@@ -69,7 +69,7 @@
                         <a href="./#character">
                             <div class="about_media flex_column">
                                 <div class="flex_center">
-                                    <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                                 </div>
                                 <p class="value_name text-center mt-5">Character</p>
                             </div>
@@ -79,7 +79,7 @@
                         <a href="./#leadership">
                             <div class="about_media flex_column">
                                 <div class="flex_center">
-                                    <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                                 </div>
                                 <p class="value_name text-center mt-5">Leadership</p>
                             </div>
@@ -89,7 +89,7 @@
                         <a href="./#academics">
                             <div class="about_media flex_column">
                                 <div class="flex_center">
-                                    <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
                                 </div>
                                 <p class="value_name text-center mt-5">Academics</p>
                             </div>
@@ -121,7 +121,7 @@
                     </ul>
                 </div>
                 <div class="col-md-5 remove_about_padding">
-                    <img src="@/assets/img/Uniform 1.jpg" style="height: 781px;">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732161/Uniform_1_lckzjk.jpg" style="height: 781px;">
                 </div>
             </section>
         </div>
@@ -129,7 +129,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/about-us-background-images-for-website-12.png';
 
 
 export default {
@@ -141,7 +140,7 @@ export default {
     data() {
         return {
             title: 'About Us',
-            BgUrl
+            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731883/about-us-background-images-for-website-12_flkxr8.png'
         }
     }
 }

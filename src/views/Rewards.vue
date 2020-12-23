@@ -1,11 +1,11 @@
 <template>
-    <MasterLayout :title="title" :BgUrl="BgUrl">
+    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
             <p class="section_col_text para">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.</p>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6 remove_about_padding">
-                        <img src="@/assets/img/Rewards.jpg">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732063/Rewards_pgt1cg.jpg">
                     </div>
                     <div class="col-md-6">
                         <h3 class="section_col_header text-center primary-color">REWARDS</h3>
@@ -47,7 +47,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6 remove_about_padding">
-                        <img src="@/assets/img/leadership (1).jpg">
+                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731954/leadership_1_jgvevn.jpg">
                     </div>
                 </div>
                 <p class="section_col_text para">
@@ -61,7 +61,6 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 
 
 export default {
@@ -72,7 +71,6 @@ export default {
     data() {
         return {
             title: 'Rewards and Sanctions',
-            BgUrl
         }
     }
 }
