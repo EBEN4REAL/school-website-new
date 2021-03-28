@@ -37,8 +37,23 @@
 }
 
 .content_width {
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 85%;
+}
+.school_hours_width {
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+    padding-top: 30px;
+    height: 491px;
+    margin-bottom: 100px;
+    &.cur_width {
+        height: auto;
+    }
+    .school_hours_margin_auto {
+        margin: 0 auto;
+        width: 85%;
+    }
 }
 
 .hundred-percent-height {
@@ -283,6 +298,9 @@
     width: 100%;
     margin-bottom: 60px;
     border-radius: 5px;
+    &.ofsted_img {
+        height: 425px;
+    }
 }
 
 .cursor_hover {
@@ -303,9 +321,16 @@
     .mar_bot {
         margin-bottom: 40px;
     }
+    .school_hours_width {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 575px) {
+    .remove_col_padding {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     .display_none {
         display: none;
     }

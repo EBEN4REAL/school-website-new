@@ -1,41 +1,48 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
-            <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
-                <div class="play_button">
-                    <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
-                </div> 
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ace_curriculum_item first post_image ofsted_img cursor_hover" v-if="!showVideo" @click="showVideoFunc">
+                        <div class="play_button">
+                            <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
+                        </div> 
+                    </div>
+                    <video controls autoplay class="post_image ofsted_img" v-if="showVideo">
+                        <source src="https://res.cloudinary.com/dfjzditzc/video/upload/v1608716314/DVD-Sol_Academy_Testimonial_vcjak1.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="section_col_header text-center reports_text primary-color">Ofsted Program</h3>
+                    <p class="section_col_text para">SOL Christian Academy was also inspected on 12-14 June 2019.</p>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">Overall effectiveness: Good</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">Effectiveness of leadership and management: Good</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">Quality of teaching, learning and assessment: Good</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">Personal development, behaviour and welfare: Good</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To impart the skills of independent study and logical thought.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To encourage a desire to contribute to others within society, an awareness of the needs of those around and sensitivity to the call of God to find a place of service.</p>
+                    </div>
+                </div>
             </div>
-            <video controls autoplay class="post_image" v-if="showVideo">
-                <source src="https://res.cloudinary.com/dfjzditzc/video/upload/v1608716314/DVD-Sol_Academy_Testimonial_vcjak1.mov" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h3 class="section_col_header text-center reports_text primary-color">Ofsted Program</h3>
-            <p class="section_col_text para">SOL Christian Academy was also inspected on 12-14 June 2019.</p>
-            <div class="flex_display">
-                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                <p class="section_col_text para">Overall effectiveness: Good</p>
-            </div>
-            <div class="flex_display">
-                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                <p class="section_col_text para">Effectiveness of leadership and management: Good</p>
-            </div>
-            <div class="flex_display">
-                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                <p class="section_col_text para">Quality of teaching, learning and assessment: Good</p>
-            </div>
-            <div class="flex_display">
-                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                <p class="section_col_text para">Personal development, behaviour and welfare: Good</p>
-            </div>
-            <div class="flex_display">
-                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                <p class="section_col_text para">To impart the skills of independent study and logical thought.</p>
-            </div>
-            <div class="flex_display">
-                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                <p class="section_col_text para">To encourage a desire to contribute to others within society, an awareness of the needs of those around and sensitivity to the call of God to find a place of service.</p>
-            </div>
+            <h3 class="section_col_header text-center reports_text primary-color">Reports</h3>
             <section class="row reports_holder">
                 <div class="col-md-3">
                     <div :style="[{
