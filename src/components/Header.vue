@@ -45,7 +45,7 @@
                     <b-nav-item :to="{ name: 'home' }" class="text-white ">Home</b-nav-item>
                     <div class="nav-parent position-relative">
                         <b-nav-item :to="{ name: 'about' }" class="text-white nav_list">About</b-nav-item>
-                        <div style="" class="dropdown_div" >
+                        <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'about'}" class="dropdown_link">Head Teacher's Message</router-link>
@@ -63,7 +63,7 @@
                     <b-nav-item :to="{ name: 'schoolHours' }" class="text-white ">School Hours</b-nav-item>
                     <div class="nav-parent position-relative">
                         <b-nav-item :to="{ name: 'parents_corner' }" class="text-white nav_list">Parents  Corner</b-nav-item>
-                        <div style="" class="dropdown_div" >
+                        <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'about'}" class="dropdown_link">Head Teacher's Message</router-link>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="nav-parent position-relative">
                         <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list">News & Extracurriculars</b-nav-item>
-                        <div style="" class="dropdown_div" >
+                        <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'blogPosts'}" class="dropdown_link">Blog</router-link>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="nav-parent position-relative">
                         <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list">Academic Evaluations</b-nav-item>
-                        <div style="" class="dropdown_div" >
+                        <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'reports'}" class="dropdown_link">Ofsted Report</router-link>
@@ -128,17 +128,20 @@
     </div>
 </template>
 <script>
+// import Jquery from 'jquery'
+// let $ = Jquery
 export default {
     data() {
         return  {
             activeTab: this.$route.name,
-            navEl: null
+            navEl: null,
+            activeNavIndex: null
         }
     },
     mounted() {
         if(screen.width <= 575) {
             document.querySelector('.m-nav').classList.remove('display-none')
-            Array.from(document.querySelectorAll('.nav_list')).forEach(el => {
+            Array.from(document.querySelectorAll('.nav-link')).forEach((el) => {
                 el.addEventListener('click', (e) => {
                     const parentList = e.target.parentNode
                     parentList.parentNode.children[1].style.display = 'block'
@@ -149,12 +152,24 @@ export default {
             })
         }else {
             document.querySelector('.m-nav').classList.add('display-none')
-            Array.from(document.querySelectorAll('.nav_list')).forEach(el => {
+            Array.from(document.querySelectorAll('.nav-link')).forEach((el, index) => {
+                this.activeNavIndex = index
                 el.addEventListener('mouseover', (e) => {
+                    console.log(e.target)
                     const parentList = e.target.parentNode
+                    Array.from(document.querySelectorAll('.dropdown_div')).forEach((el,i) => {
+                        if(i == this.activeNavIndex) {
+                            el.style.display = 'block'
+                        }
+
+                        el.style.display = 'none'
+                    })
                     parentList.parentNode.children[1].style.display = 'block'
                     parentList.parentNode.children[1].addEventListener('mouseleave' , (e) => {
                         e.target.style.display = "none"
+                        if(this.activeNavIndex ==  10) {
+                            el.parentNode.children[0].style.display = 'inline-block'
+                        }
                     })
                 })
             })

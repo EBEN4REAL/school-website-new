@@ -62,8 +62,15 @@
 .small_text {
     font-size: 10px;
 }
+.dropdown-up {
+    transform: translateY(0px);
+}
+.dropdown-down {
+    transform: translateY(100px);
+}
 .dropdown_div {
     display: none ;
+    transition: 0.3s all ease-in-out;
     .dropdowm_list {
         min-width: 10rem;
         padding: 0.6rem 0.5em;
