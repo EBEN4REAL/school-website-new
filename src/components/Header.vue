@@ -161,15 +161,15 @@ export default {
                         if(i == this.activeNavIndex) {
                             el.style.display = 'block'
                         }
-                        if(this.activeNavIndex ===  1) {
-                            alert('about')
-                            el.parentNode.children[0].style.display = 'inline-block'
-                        }
+
                         el.style.display = 'none'
                     })
                     parentList.parentNode.children[1].style.display = 'block'
                     parentList.parentNode.children[1].addEventListener('mouseleave' , (e) => {
                         e.target.style.display = "none"
+                        if(this.activeNavIndex ==  10) {
+                            el.parentNode.children[0].style.display = 'inline-block'
+                        }
                     })
                 })
             })
