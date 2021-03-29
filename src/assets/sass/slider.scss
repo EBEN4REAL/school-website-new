@@ -41,7 +41,9 @@
 }
 .carousel-item {
     img {
-        width: 100% !important;
+        // width: 100% !important;
+        width: auto !important;
+        margin: 0 auto;
         height: 610px !important;
     }
 }

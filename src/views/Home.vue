@@ -374,44 +374,6 @@
                 </div>
             </div>
         </section>
-        <section class="why_choose_us mt-5">
-            <h4 class="text-center bold_text header_conten primary-color">Reasons Why You Should Choose Us</h4>
-            <div class="mt-5 row align-items-center" id="character">
-                <div class="col-md-6">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/character_riivqs.jpg" class="why_img" width="450px"  />
-                </div>
-                <div class="col-md-6">
-                    <h4 class="bold_text primary-color">Character</h4>
-                    <p class="para section_col_text">As Christians, we need to strive for success. Our strong Christian character needs to stand out to a lost world. The world needs to see Christians who can handle adversity as well as success. Success tests the crucible of our Christian character! Let’s remember who we are and who brought success our way.
-                    We all think about a lot of things that are not godly, and things we would be ashamed of if they were available for all to know. 
-                    Abraham Lincoln once said, “Character is like a tree and reputation like its shadow. The shadow is what we think of it; the tree is the real thing.” My reputation is what others think of me, which may or may not be true, but my character is who I really am. Your character is the real you in the sense that you cannot separate what you do from who you are.
-                    </p>
-                </div>
-            </div>
-            
-            <div class="mt-5 row align-items-center " id="leadership">
-                <div class="col-md-6">
-                    <h4 class="bold_text primary-color">Leadership</h4>
-                    <p class="para section_col_text">As Christians, we carry the responsibility of representing Christ in the way we lead. It’s not just for our sake but the sake of those around us.
-                    When people know that we are followers of Jesus, they see our behaviour and associate whatever behaviour they see in us with Jesus. Whether we like it or not, we are carefully watched by those outside the church, and we represent Jesus on earth. Our behaviour doesn’t change the nature of Jesus, but we can change the way people around us think about Jesus based on our actions and behaviour.“If we lead poorly, that’s a really bad representation and every one of us knows that we can absolutely affect someone’s faith by how we lead, good or bad.”
-                    Global citizen of a greater Kingdom to come..Inspiration
-                    .
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731924/Leadership_d5l6mu.jpg" class="why_img" width="100%"  />
-                </div>
-            </div>
-             <div class="mt-5 row align-items-center" id="academics">
-                <div class="col-md-6">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731977/academics_c8zfrx.jpg" class="why_img" width="100%"  />
-                </div>
-                <div class="col-md-6">
-                    <h4 class="bold_text primary-color">Academics</h4>
-                    <p class="para section_col_text">Academics are important in the life of a disciple of Christ, because they engage our minds by sharpening, stretching, and challenging our thinking about God in a myriad of ways. In science and math classes, we can love God by learning about His awesome creation and how the universe is perfectly designed. In language arts, we love God by learning the skills we need to read His Word and to communicate effectively with others. In history, we love God by learning how all of human events fit into the arc of the Gospel – creation, fall, redemption, and (coming soon!) glorification. If it’s true that God has something to say about every subject, and every subject has something to say about God, it follows that studying these subjects – when they are taught from a Biblical worldview – helps us to love God with our minds.</p>
-                </div>
-            </div>
-        </section>
         <section class="mt-5 testimonials">
             <div class="row">
                 <div class="col-md-6">
@@ -459,6 +421,54 @@
                   </template>
               </vueper-slide>
             </vueper-slides>
+        </section>
+        <section class="why_choose_us mt-5 mb-5">
+            <h4 class="text-center bold_text header_conten primary-color">Reasons Why You Should Choose Us</h4>
+            <div class="mt-5 row align-items-center" id="character">
+                <div class="col-md-6">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/character_riivqs.jpg" class="why_img" width="450px"  />
+                </div>
+                <div class="col-md-6">
+                    <h4 class="bold_text primary-color">Character</h4>
+                    <p class="para section_col_text">As Christians, we need to strive for success. Our strong Christian character needs to stand out to a lost world. The world needs to see Christians who can handle adversity as well as success. Success tests the crucible of our Christian character! Let’s remember who we are and who brought success our way.
+                    We all think about a lot of things that are not godly, and things we would be ashamed of if they were available for all to know. 
+                    Abraham Lincoln once said, “Character is like a tree and reputation like its shadow. The shadow is what we think of it; the tree is the real thing.” My reputation is what others think of me, which may or may not be true, but my character is who I really am. Your character is the real you in the sense that you cannot separate what you do from who you are.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-5 row align-items-center " id="leadership">
+                <div class="col-md-6">
+                    <h4 class="bold_text primary-color">Leadership</h4>
+                    <p class="para section_col_text">As Christians, we carry the responsibility of representing Christ in the way we lead. It’s not just for our sake but the sake of those around us.
+                    When people know that we are followers of Jesus, they see our behaviour and associate whatever behaviour they see in us with Jesus. Whether we like it or not, we are carefully watched by those outside the church, and we represent Jesus on earth. Our behaviour doesn’t change the nature of Jesus, but we can change the way people around us think about Jesus based on our actions and behaviour.“If we lead poorly, that’s a really bad representation and every one of us knows that we can absolutely affect someone’s faith by how we lead, good or bad.”
+                    Global citizen of a greater Kingdom to come..Inspiration
+                    .
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731924/Leadership_d5l6mu.jpg" class="why_img" width="100%"  />
+                </div>
+            </div>
+             <div class="mt-5 row align-items-center" id="academics">
+                <div class="col-md-6">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731977/academics_c8zfrx.jpg" class="why_img" width="100%"  />
+                </div>
+                <div class="col-md-6">
+                    <h4 class="bold_text primary-color">Academics</h4>
+                    <p class="para section_col_text">Academics are important in the life of a disciple of Christ, because they engage our minds by sharpening, stretching, and challenging our thinking about God in a myriad of ways. In science and math classes, we can love God by learning about His awesome creation and how the universe is perfectly designed. In language arts, we love God by learning the skills we need to read His Word and to communicate effectively with others. In history, we love God by learning how all of human events fit into the arc of the Gospel – creation, fall, redemption, and (coming soon!) glorification. If it’s true that God has something to say about every subject, and every subject has something to say about God, it follows that studying these subjects – when they are taught from a Biblical worldview – helps us to love God with our minds.</p>
+                </div>
+            </div>
+            <div class="mt-5 row align-items-center " id="leadership">
+                <div class="col-md-6">
+                    <h4 class="bold_text primary-color">Clients Feedback</h4>
+                    <p class="para section_col_text">Here's what our clients have to say about us
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731924/Leadership_d5l6mu.jpg" class="why_img" width="100%"  />
+                </div>
+            </div>
         </section>
     <Footer />
    </div>

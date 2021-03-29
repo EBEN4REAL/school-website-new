@@ -20,6 +20,33 @@
                         I.TABETH</p>
                 </div>
             </section>
+            <section class="row curriculum no_about_cu">
+                <div class="col-xl-7 col-lg-12 col-md-12 curriculum_content">
+                    <h3 class="section_col_header text-center primary-color">A.C.E Curriculum</h3>
+                    <p class="section_col_text" style="font-size: 10px">(A.C.E.) has been the trendsetter in Biblical educational reform. Its philosophy is built on basic principles of the Word of God. Students are taught to see life from God’s point of view, to take responsibility for their own learning, and to walk in Godly wisdom and character.
+                    </p>
+                    <strong>
+                        ACCELERATED CHRISTIAN EDUCATION IS A BIBLE-BASED K-12 PROGRAM. 
+                    </strong>
+                    <p class="section_col_text " style="font-size: 11px">
+                        Accelerated Christian Education was founded in 1970 by Donald and Esther Howard in Garland, Texas. The ministry began solely upon God’s leading to meet the need for an individualized, Biblically-based education for children. Their desire was to assist parents, pastors, and school staff in the Lord’s command of Deuteronomy 6:7 ” And thou shalt teach them diligently unto thy children, and shalt talk to them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up”.
+                        Mr. and Mrs. Howard started the first Learning Center in their home, but in just one year had five schools joining their staff training! By 1974, more than 500 schools across the U.S. had implemented the program. A.C.E. has taken a conventionally styled textbook and divided it into bite-sized workbooks called <a href="https://www.aceministries.com/what-is-a-pace">PACEs (Packets of Accelerated Christian Education)</a>  which are full of self-instructional activities designed to develop thinking skills and create mastery learning.  
+                        A.C.E. has been adding programs for students to participate in activities outside of the classroom since 1973.   <a href="https://www.acestudentprograms.com/rsc/about-rsc" target="_blank">Regional</a> and  <a href="https://www.acestudentprograms.com/isc/about-isc" target="_blank">International Student Conventions</a> help students grow closer to the Lord Jesus Christ and demonstrate their achievements in a wide range of categories from chess to Bible, basketball to art. <a href="https://www.acestudentprograms.com/sa/about-sa" target="_blank">service adventures</a>Service Adventures and <a href="https://www.acestudentprograms.com/ea/about-ea" target="_blank">Educational Assistance</a> Programs in foreign countries give students the opportunity to step outside their comfort zones, to share Christ’s love with schools in need, and to be involved in reaching children.
+                        The first international school using A.C.E. curriculum opened in 1974 in Winnipeg, Manitoba, Canada. However, throughout the years, separate warehouses opened in Australia, the Philippines, Russia, United Kingdom, and Africa. Today A.C.E. serves more than 6,000 schools and countless homeschool families around the globe.
+                    </p>
+                    <p>Learn More About</p>
+                    <ul>
+                        <li><a target="_blank" class="ace_link" href="https://www.aceministries.com/curriculum">The A.C.E. curriculum</a></li>
+                        <li><a target="_blank" class="ace_link" href="https://www.acem.org/">Accelerated College of the Bible International (ACBI)</a></li>
+                        <li><a target="_blank"  class="ace_link" href="https://www.aceministries.com/about-ace">Presenting A.C.E. video</a></li>
+                        <li><a target="_blank" class="ace_link" href="https://www.aceministries.com/about-ace">Individualization video – Dr. Dell Johnson</a></li>
+                        <li><a target="_blank" class="ace_link" href="https://www.aceministries.com/media/pageimg/Great_Command_Commission-web.pdf">Individualization video – Dr. Dell Johnson</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732161/Uniform_1_lckzjk.jpg" style="height: 781px;">
+                </div>
+            </section>
             <section class="row justify-content-between align-items-center content_width">
                 <div class="col-xl-5 col-lg-12 col-md-12">
                     <h3 class="section_col_header primary-color">Our Vision</h3>
@@ -95,33 +122,6 @@
                             </div>
                         </a>
                     </div>
-                </div>
-            </section>
-            <section class="row curriculum" style="margin-bottom: 240px">
-                <div class="col-md-7 curriculum_content">
-                    <h3 class="section_col_header text-center primary-color">A.C.E Curriculum</h3>
-                    <p class="section_col_text" style="font-size: 10px">(A.C.E.) has been the trendsetter in Biblical educational reform. Its philosophy is built on basic principles of the Word of God. Students are taught to see life from God’s point of view, to take responsibility for their own learning, and to walk in Godly wisdom and character.
-                    </p>
-                    <strong>
-                        ACCELERATED CHRISTIAN EDUCATION IS A BIBLE-BASED K-12 PROGRAM. 
-                    </strong>
-                    <p class="section_col_text " style="font-size: 11px">
-                        Accelerated Christian Education was founded in 1970 by Donald and Esther Howard in Garland, Texas. The ministry began solely upon God’s leading to meet the need for an individualized, Biblically-based education for children. Their desire was to assist parents, pastors, and school staff in the Lord’s command of Deuteronomy 6:7 ” And thou shalt teach them diligently unto thy children, and shalt talk to them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up”.
-                        Mr. and Mrs. Howard started the first Learning Center in their home, but in just one year had five schools joining their staff training! By 1974, more than 500 schools across the U.S. had implemented the program. A.C.E. has taken a conventionally styled textbook and divided it into bite-sized workbooks called <a href="https://www.aceministries.com/what-is-a-pace">PACEs (Packets of Accelerated Christian Education)</a>  which are full of self-instructional activities designed to develop thinking skills and create mastery learning.  
-                        A.C.E. has been adding programs for students to participate in activities outside of the classroom since 1973.   <a href="https://www.acestudentprograms.com/rsc/about-rsc" target="_blank">Regional</a> and  <a href="https://www.acestudentprograms.com/isc/about-isc" target="_blank">International Student Conventions</a> help students grow closer to the Lord Jesus Christ and demonstrate their achievements in a wide range of categories from chess to Bible, basketball to art. <a href="https://www.acestudentprograms.com/sa/about-sa" target="_blank">service adventures</a>Service Adventures and <a href="https://www.acestudentprograms.com/ea/about-ea" target="_blank">Educational Assistance</a> Programs in foreign countries give students the opportunity to step outside their comfort zones, to share Christ’s love with schools in need, and to be involved in reaching children.
-                        The first international school using A.C.E. curriculum opened in 1974 in Winnipeg, Manitoba, Canada. However, throughout the years, separate warehouses opened in Australia, the Philippines, Russia, United Kingdom, and Africa. Today A.C.E. serves more than 6,000 schools and countless homeschool families around the globe.
-                    </p>
-                    <p>Learn More About</p>
-                    <ul>
-                        <li><a target="_blank" class="ace_link" href="https://www.aceministries.com/curriculum">The A.C.E. curriculum</a></li>
-                        <li><a target="_blank" class="ace_link" href="https://www.acem.org/">Accelerated College of the Bible International (ACBI)</a></li>
-                        <li><a target="_blank"  class="ace_link" href="https://www.aceministries.com/about-ace">Presenting A.C.E. video</a></li>
-                        <li><a target="_blank" class="ace_link" href="https://www.aceministries.com/about-ace">Individualization video – Dr. Dell Johnson</a></li>
-                        <li><a target="_blank" class="ace_link" href="https://www.aceministries.com/media/pageimg/Great_Command_Commission-web.pdf">Individualization video – Dr. Dell Johnson</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-5 remove_about_padding">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732161/Uniform_1_lckzjk.jpg" style="height: 781px;">
                 </div>
             </section>
         </div>

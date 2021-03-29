@@ -26,6 +26,9 @@
         &.curriculum {
             height: 540px;
             width: 100%;
+            &.no_about_cu {
+                height: auto;
+            }
             .curriculum_content {
                 background-color: #E3F6EB;
                 padding: 50px 100px;
