@@ -1,14 +1,14 @@
 <template>
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width py-4">
-            <div class="text-justify mt-4">
+            <div class="text-justify mt-4" data-aos="zoom-in" data-aos-duration="2000">
                 <p class="section_col_text para">Homework is designed to aid the learning process and to train students to organise themselves and to be responsible for their own work. All subjects are expected to set a reasonable amount of homework at least once a week, to mark homework regularly and to write helpful comments for improvement or commendations alongside students' work.</p>
             </div>
             <div class="row mt-4 mb-5">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731925/HomeworkImage_hvsdzs.jpg" class="hundred-percent-width" />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-aos="zoom-in" data-aos-duration="2000">
                     <p class="section_col_text para remove_p_bottom_border">Curriculum Leaders are expected to keep a check on the quantity and quality of homework given and marking undertaken by Teachers. Monitor Diaries inform the Supervisors of shortfalls, gaps or overloads in the amount of homework given.
                     <br>
                     Each student is issued with a Student Diary at the beginning of each School Year. It is very important that this diary is not defaced, damaged or lost. Replacements cost £2.00 and can be obtained from the Student Reception.
@@ -37,7 +37,7 @@
             </section>
             <div class="text-center">
                 <a href="https://www.edplace.com/student/" target="blank">
-                    <button class="view_calendar_button">
+                    <button class="view_calendar_button transparent_hover_effect">
                         View Homework
                     </button>
                 </a>

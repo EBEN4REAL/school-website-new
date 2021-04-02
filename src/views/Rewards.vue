@@ -1,13 +1,13 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
-            <p class="section_col_text para">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.</p>
+            <p class="section_col_text para" data-aos="fade-down" data-aos-duration="2000">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.</p>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-md-6 remove_about_padding">
+                    <div class="col-md-6 remove_about_padding" data-aos="fade-right" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732063/Rewards_pgt1cg.jpg">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header text-center primary-color">REWARDS</h3>
                         <p class="section_col_text para remove_p_bottom_border">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.
                         <br>
@@ -30,7 +30,7 @@
             </section>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header text-center primary-color">SANCTIONS</h3>
                         <p class="section_col_text para remove_p_bottom_border">At Sol Christian Academy we will support those who are experiencing behavioural, emotional, social or other difficulties that might impede self-discipline and effective learning. Whilst we believe the most effective way of managing behaviour is to praise and reward good behaviour, there are occasions and circumstances when other support is required. Where students are having difficulty conforming to the expected standards of behaviour various strategies and systems may be employed to help them improve.
                         <br>
@@ -46,11 +46,11 @@
                             <li class="section_col_text para">referring the incident to the Curriculum Leader (for subject issues) or the Supervisor (for pastoral issues)</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 remove_about_padding">
+                    <div class="col-md-6 remove_about_padding" data-aos="fade-left" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731954/leadership_1_jgvevn.jpg">
                     </div>
                 </div>
-                <p class="section_col_text para">
+                <p class="section_col_text para" data-aos="fade-up" data-aos-duration="2000">
                 Discipline is firm, fair and consistent. If further punishment is required, it usually consists of a detention, referral to a senior member of staff or a warning letter. Exclusions, either internal or when students are asked to stay away from school for a set time are also used for serious offences. 
                 <br>
                 On rare occasions, when a member of the Senior Leadership Team is involved, parents may be invited to the School to discuss particular issues.

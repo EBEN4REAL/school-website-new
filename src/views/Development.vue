@@ -2,23 +2,23 @@
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width development_container">
             <h3 class="section_col_header text-center primary-color">BEGINNING READING FOR YOUNG CHILDREN</h3>
-            <p class="section_col_text para text-center" style="margin-bottom: 0">ABCs with Ace and Christi </p>
-            <p class="section_col_text para">This 12- to 15-week program is designed for those who have not been to school or who do not yet know how to read. To enroll, the student must pass both parts of the Pretest and show the proper maturity level as determined by the Coordination Development Tests. This program will prepare children for the individualized instruction of the PACE curriculum. The lively and entertaining phonetically-based program features cartoon characters, songs, poems, displays, and character-building activities</p>
+            <p class="section_col_text para text-center" style="margin-bottom: 0" data-aos="zoom-in" data-aos-duration="2000">ABCs with Ace and Christi </p>
+            <p class="section_col_text para" data-aos="zoom-in" data-aos-duration="2000">This 12- to 15-week program is designed for those who have not been to school or who do not yet know how to read. To enroll, the student must pass both parts of the Pretest and show the proper maturity level as determined by the Coordination Development Tests. This program will prepare children for the individualized instruction of the PACE curriculum. The lively and entertaining phonetically-based program features cartoon characters, songs, poems, displays, and character-building activities</p>
             <section class="mb-5 mt-5">
                 <h3 class="section_col_header text-center mb-5 primary-color">SECOND-LANGUAGE READING PROGRAMS</h3>
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header text-center primary-color">ABCs for English Learn</h3>
                         <p class="section_col_text para" style="margin-bottom: 0">ABCs with Ace and Christi </p>
                         <p class="section_col_text para">This full-year program is designed for children aged 5–9 who have passed the Pretest. The Pretest helps to determine if a student is ready to learn to read. This program combines Speaking English with Ace and Christi and ABCs with Ace and Christi. It allows students to learn, to read and speak.</p>
                     </div>
-                    <div class="col-md-6 remove_about_padding">
+                    <div class="col-md-6 remove_about_padding" data-aos="fade-left" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732017/Reading_development_xttnkc.jpg">
                     </div>
                 </div>
             </section>
             <section class="row justify-content-between all_developments mb-5">
-                <div class="col-md-6 col-lg-6 col-xl-4 mb-5">
+                <div class="col-md-6 col-lg-6 col-xl-4 mb-5" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="development_holder align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-6 col-xl-4 mb-5">
+                <div class="col-md-6 col-lg-6 col-xl-4 mb-5" data-aos="fade-down" data-aos-duration="2000">
                     <div class="development_holder align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-6 col-xl-4 mb-5">
+                <div class="col-md-6 col-lg-6 col-xl-4 mb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="development_holder align-items-center">
                         <div class="dev_img">
                             <div class="image flex_center ">

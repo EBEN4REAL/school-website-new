@@ -4,7 +4,7 @@
             <p class="text-center mb-4">Subscribe and join thousands like you!</p>
             <div class="subscribe">
                 <input placeholder="email@email.com"/>
-                <button>Subscribe</button>
+                <button hover_effect>Subscribe</button>
             </div>
         </div>
     </div>

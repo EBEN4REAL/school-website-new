@@ -41,10 +41,9 @@
 }
 .carousel-item {
     img {
-        // width: 100% !important;
-        width: auto !important;
-        margin: 0 auto;
-        height: 610px !important;
+        width: 100% !important;
+        object-fit: cover;
+        height: 630px !important;
     }
 }
 .carousel-control-prev, .carousel-control-next {

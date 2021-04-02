@@ -2,7 +2,7 @@
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="content_width">
             <div class="row py-3">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-down" data-aos-duration="2000">>
                     <div class="kidzone_links_container  golden-bg"  >
                         <h5 class="text-white mb-4">Infants</h5>
                         <p class="text-white"><a  class="text-white" href="www.bbc.co.uk/bitesize/ks1/" target="_blank">www.bbc.co.uk/bitesize/ks1/</a></p>
@@ -26,7 +26,7 @@
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731856/20190702_123537_teyo14.png"  width="150" />
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">>
                     <div class="kidzone_links_container primary-bg">
                         <h5 class="text-white mb-5">Junior</h5>
                         <p class="text-white"><a  class="text-white" href="http://www.kidsspell.com/">Kids Spell (Create your own spelling lists & games) (KS1 & KS2)</a></p>
@@ -42,7 +42,7 @@
                 </div>
             </div>
               <div class="row py-3">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">>
                     <div class="kidzone_links_container primary-bg" >
                         <h5 class="text-white mb-4">KS2</h5>
                         <p class="text-white"><a  class="text-white" href="http://www.bbc.co.uk/schools/digger/7_9entry/7_9.shtml" target="_blank">http://www.bbc.co.uk/schools/digger/7_9entry/7_9.shtml</a></p>
@@ -66,7 +66,7 @@
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731856/20190702_123537_teyo14.png"  width="100" />
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">>
                    
                 </div>
             </div>

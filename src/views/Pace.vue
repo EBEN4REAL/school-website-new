@@ -1,18 +1,20 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
-            <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
-                <div class="play_button">
-                    <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
-                </div> 
+            <div data-aos="fade-down" data-aos-duration="2000">>
+                <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
+                    <div class="play_button">
+                        <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
+                    </div> 
+                </div>
+                <video controls autoplay class="post_image" v-if="showVideo">
+                    <source src="https://res.cloudinary.com/dfjzditzc/video/upload/v1608716498/PACE_Numbering_System_1_gzvhzh.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
-            <video controls autoplay class="post_image" v-if="showVideo">
-                <source src="https://res.cloudinary.com/dfjzditzc/video/upload/v1608716498/PACE_Numbering_System_1_gzvhzh.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
             <section class="mb-5">
                 <h3 class="section_col_header text-center primary-color">Packet of Accelerated Christian EDUCATION(PACE®)</h3>
-                <div class="row justify-content-between">
+                <div class="row justify-content-between" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="col-md-12">
                         <p class="section_col_text para">Accelerated Christian Education® has taken the conventional style textbook and divided it into bite-sized, achievable worktexts called PACEs. Each PACE is similar to a unit in a textbook. Each level consists of 12 PACEs in each subject. PACEs integrate Godly character-building lessons into the academic content, and self-instructional activities are carefully designed to develop thinking skills and create mastery learning.
                         <br>
@@ -24,10 +26,10 @@
             </section>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding mar_bot">
+                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding mar_bot" data-aos="fade-right" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/slider_3_haihb9.jpg">
                     </div>
-                    <div class="col-xl-7 col-lg-12 col-md-12">
+                    <div class="col-xl-7 col-lg-12 col-md-12" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header text-center primary-color">WHAT'S INSIDE</h3>
                         <ul>
                             <li class="section_col_text para">Students begin their PACE work by noting their goals, the concepts they will learn, a Bible verse, and a corresponding character trait. From the beginning of each PACE, they know what is expected and assume the responsibility for their own learning!</li>
@@ -42,7 +44,7 @@
             </section>
             <section class="mb-5">
                 <h3 class="section_col_header text-center primary-color">THE A.C.E. PROGRAM</h3>
-                <div class="row justify-content-between">
+                <div class="row justify-content-between" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="col-md-12">
                         <p class="section_col_text para">Since 1970, A.C.E. PACEs have proven to be effective tools for goal setting and for achieving academic excellence. The A.C.E. Program is indeed more than just a PACE. A.C.E. provides a wide variety of student programs and staff training opportunities at locations around the world. See how A.C.E. can take education at your school or home school far beyond academics.</p>
                     </div>

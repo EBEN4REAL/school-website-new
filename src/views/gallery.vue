@@ -1,14 +1,14 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="blog_posts_container content_width">
-            <div class="mb-3 text-center">
-                <button class="gallery_button mr-2" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>
-                <button class="gallery_button mr-2" @click="changeView('pictures')" :class="view == 'pictures' ? ['gallery_button_active'] : null">Pictures</button>
-                <button class="gallery_button mr-2" @click="changeView('videos')" :class="view == 'videos' ? ['gallery_button_active'] : null">Videos</button>
-                <button class="gallery_button mr-2" @click="changeView('bvp')" :class="view == 'bvp' ? ['gallery_button_active'] : null">British Value Presentation</button>
-                <button class="gallery_button mr-2" @click="changeView('sca')" :class="view == 'sca' ? ['gallery_button_active'] : null">S.C.A Yearly</button>
+            <div class="mb-3 text-center" data-aos="fade-down" data-aos-duration="2000">
+                <button class="gallery_button mr-2 transparent_hover_effect" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>
+                <button class="gallery_button mr-2 transparent_hover_effect" @click="changeView('pictures')" :class="view == 'pictures' ? ['gallery_button_active'] : null">Pictures</button>
+                <button class="gallery_button mr-2 transparent_hover_effect" @click="changeView('videos')" :class="view == 'videos' ? ['gallery_button_active'] : null">Videos</button>
+                <button class="gallery_button mr-2 transparent_hover_effect" @click="changeView('bvp')" :class="view == 'bvp' ? ['gallery_button_active'] : null">British Value Presentation</button>
+                <button class="gallery_button mr-2 transparent_hover_effect" @click="changeView('sca')" :class="view == 'sca' ? ['gallery_button_active'] : null">S.C.A Yearly</button>
             </div>
-            <section class="row" v-if="view == 'all' || view == 'pictures'">
+            <section class="row" v-if="view == 'all' || view == 'pictures'" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="col-md-3" >
                     <div class="gallery_card">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732144/ttop_1_ystymo.jpg"  />
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </section>
-            <section class="row" v-if="view == 'all' || view == 'videos'">
+            <section class="row" v-if="view == 'all' || view == 'videos'" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="col-md-6" >
                     <video controls class="post_image">
                         <source src="https://res.cloudinary.com/dfjzditzc/video/upload/v1608717373/gallery1_vh8lut.mp4" type="video/mp4">
@@ -80,7 +80,7 @@
                     </video>
                 </div>
             </section>
-            <section class="row" v-if="view == 'all' || view == 'bvp'">
+            <section class="row" v-if="view == 'all' || view == 'bvp'" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="col-md-3" >
                     <div class="gallery_card">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732144/ttop_1_ystymo.jpg"  />

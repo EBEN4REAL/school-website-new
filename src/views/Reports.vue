@@ -2,7 +2,7 @@
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="ace_curriculum_item first post_image ofsted_img cursor_hover" v-if="!showVideo" @click="showVideoFunc">
                         <div class="play_button">
                             <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
@@ -13,7 +13,7 @@
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                     <h3 class="section_col_header text-center reports_text primary-color">Ofsted Program</h3>
                     <p class="section_col_text para">SOL Christian Academy was also inspected on 12-14 June 2019.</p>
                     <div class="flex_display">
@@ -44,7 +44,7 @@
             </div>
             <h3 class="section_col_header text-center reports_text primary-color">Reports</h3>
             <section class="row reports_holder">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-in" data-aos-duration="2000">
                     <div :style="[{
                         backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.9)), url(${ReportsBgUrl})`,
                         backgroundPosition: 'center',
@@ -55,7 +55,7 @@
                         <a href="./Ofsted.pdf" download class="text-decoration-none report_link mt-3">Download Report</a>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3" data-aos="zoom-in" data-aos-duration="2000">
                     <div :style="[{
                         backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.85)), url(${ReportsBgUrl})`,
                         backgroundPosition: 'center',

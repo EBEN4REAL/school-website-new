@@ -1,13 +1,13 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width uniform_container">
-            <p class="section_col_text para">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
+            <p class="section_col_text para" data-aos="fade-down" data-aos-duration="2000">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-6 col-lg-12 mb-3 col-md-12 remove_about_padding">
+                    <div class="col-xl-6 col-lg-12 mb-3 col-md-12 remove_about_padding" data-aos="fade-right" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731859/Group_3004_di4wr8.svg">
                     </div>
-                    <div class="col-xl-6 col-lg-12 col-md-12 codes">
+                    <div class="col-xl-6 col-lg-12 col-md-12 codes" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header text-center primary-color">DRESS CODE AND GENERAL GUIDELINES</h3>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -38,7 +38,7 @@
             </section>
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
+                    <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header text-center primary-color">BLOUSES AND SHIRTS AVAILABLE :</h3>
                         <div class="skewed_div uniform_skewed flex_column">
                             <p>Boys' shirt, golden, collar: 36cm / 14" (12-14 years)</p>
@@ -47,7 +47,7 @@
                             <p>Girls' blouse, golden, 76cm / 30" (9-10 years)</p>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
+                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding" data-aos="fade-left" data-aos-duration="2000">
                         <splide :options="options">
                             <splide-slide>
                                 <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732161/Uniform_1_lckzjk.jpg" width="100%" >
@@ -69,13 +69,13 @@
                 </div>
 
                 <div class="text-center mt-5">
-                    <a href="https://www.schooltrends.co.uk/" >
-                        <button class="view_calendar_button">
+                    <a href="https://www.schooltrends.co.uk/"  data-aos="fade-right" data-aos-duration="2000">
+                        <button class="view_calendar_button transparent_hover_effect">
                             ORDER UNIFORM HERE 
                         </button>
                     </a>
-                    <a href="./Uniform List.pdf" target="blank">
-                        <button class="view_calendar_button">
+                    <a href="./Uniform List.pdf" target="blank" data-aos="fade-left" data-aos-duration="2000">
+                        <button class="view_calendar_button transparent_hover_effect">
                             SEE UNIFORM LIST
                         </button>
                     </a>

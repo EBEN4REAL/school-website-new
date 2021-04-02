@@ -1,10 +1,10 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width policies_container">
-            <div class="img_holder">
+            <div class="img_holder" data-aos="fade-down" data-aos-duration="2000">
                 <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731858/Group_2973_yxszeh.png"/>
             </div>
-            <div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
                 <p class="section_col_text">At the school we have an ‘open door’ policy. Parents are encouraged to make an appointment to speak with the teachers and the Principal. We aim to deal with issues as they arise, contacting parents within the day if an incident should occur. The students are encouraged to talk to teachers and parents if they have any concerns or problems. Children are strongly advised not to retaliate, but to take the correct course of action, that is, to inform the teacher. We endeavour to have effective communication channels, a prerequisite for any healthy partnership. Parents, management, teachers, and governors are all committed to enforcing this policy. <br> <b><i>‘Can two walk together, unless they are in agreement?’ – Amos 3:3</i></b> <br><br> Our behaviour policy is evaluated periodically and any necessary changes made. To ensure the smooth running of the school and maintain consistency throughout the school community, parents must read and sign the policy stating their agreement. <br><br><strong><a href="./safeguarding-2019.pdf" download> SAFEGUARDING </a></strong> <br><strong><a href="./Curriculum Policy For SEND v(1).docx" download>SEND POLICY </a></strong> <br><strong><a href="./Complaint policy (1).pdf" download> COMPLAINTS POLICY </a></strong><br><strong>BEHAVIOUR , HEALTH AND SAFETY</strong> <br> <br>Full details of all our policies listed below are available upon request. </p>
 
                 <ul>

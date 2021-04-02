@@ -1,12 +1,12 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
-        <div class="pace_container content_width school_hours_width uniform_container">
-            <section class="mb-5 school_hours_margin_auto">
+        <div class="content_width school_hours_width uniform_container school_hours_margin">
+            <section class="school_hours_margin_auto">
                 <div class="row justify-content-center school_hours">
-                    <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
+                    <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot" data-aos="zoom-in" data-aos-duration="2000">
                         <h3 class="section_col_header primary-color">To see a list of all events at SOL Christian Academy Please look at our events calendar</h3>
                         <a href="./Calendar 2020_2021.pdf" target="_blank"> 
-                            <button class="view_calendar_button">
+                            <button class="view_calendar_button transparent_hover_effect">
                                 View Calendar
                             </button>
                         </a>
@@ -33,8 +33,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
-                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731855/Group_2374_zxostu.svg">
+                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding flex_center" data-aos="fade-left" data-aos-duration="2000">
+                        <img src="@/assets/img/school-hours.png" class="school_hours_img">
                     </div>
                 </div>
                 

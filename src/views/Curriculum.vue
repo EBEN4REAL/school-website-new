@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div>
-            <div class="pace_container content_width curriculum_container">
+            <div class="pace_container content_width curriculum_container" data-aos="zoom-in" data-aos-duration="2000">
                 <h3 class="section_col_header primary-color">CORE CURRICULUM</h3>
                 <p class="section_col_text para mb-5">
                 Each core subject consists of 12 PACEs <a href="https://www.aceministries.com/what-is-a-pace" target="blank">(Packet of Accelerated Christian Education)</a> per level. Typical students work daily on one PACE in each subject and may be performing at varying levels. The diagnostic test results help to identify academic weaknesses and prescribe a path to help students catch up. Most students complete at least 70 PACEs per year, while maintaining academic balance by completing about the same number of PACEs in each assigned subject.
@@ -10,7 +10,7 @@
             <h3 class="section_col_header text-center primary-color">CORE SUBJECTS</h3>
             <section class="mb-5 school_hours_width">
                 <div class="row justify-content-center align-items-center school_hours_margin_auto">
-                    <div class="col-md-7 skewed_parent">
+                    <div class="col-md-7 skewed_parent" data-aos="fade-right" data-aos-duration="2000">
                         <div class="skewed_div uniform_skewed flex_column">
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -42,14 +42,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 remove_about_padding text-center">
+                    <div class="col-md-5 remove_about_padding text-center" data-aos="zoom-in" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731980/School_Logo_1_i87czg.png" style="width:80%">
                     </div>
                 </div>
             </section>
             <div class="content_width curriculum_container">
                 <h3 class="section_col_header primary-color">MULTIMEDIA</h3>
-                <div class="row">
+                <div class="row" data-aos="zoom-in" data-aos-duration="2000">>
                     <p class="section_col_text para col-xl-7 col-sm-12">
                     Readmaster Plus is an educational software suite that enhances students’ educational experiences while challenging their learning. Readmaster Plus offers four distinct computer software programs:
                     </p>
@@ -60,11 +60,11 @@
                 <div class="school_hours_margin_auto">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 row">
-                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4">
+                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4" data-aos="fade-down-right" data-aos-duration="2000">
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
+                                            <img src="@/assets/img/read-master.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -74,11 +74,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4">
+                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
+                                            <img src="@/assets/img/type-master.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -88,11 +88,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4">
+                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4" data-aos="zoom-in" data-aos-duration="2000">
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
+                                            <img src="@/assets/img/math-builder.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -102,11 +102,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4">
+                            <div class="col-md-6 col-lg-6 remove_col_padding mb-4" data-aos="fade-up-left" data-aos-duration="2000">
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
+                                            <img src="@/assets/img/word-builder.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -117,14 +117,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-12 remove_about_padding text-center">
-                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731980/School_Logo_1_i87czg.png" style="width:80%">
+                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-12 remove_about_padding text-center flex_start" data-aos="zoom-in" data-aos-duration="2000">
+                            <img class="curriculum_image1" src="@/assets/img/curriculum1.png">
+                            <img class="curriculum_image2" src="@/assets/img/curriculum2.png">
+                            <img class="curriculum_image3" src="@/assets/img/curriculum3.png">
                         </div>
                     </div>
                 </div>
                 
             </section>
-            <section class="mb-5 content_width curriculum_container">
+            <section class="mb-5 content_width curriculum_container" data-aos="zoom-in" data-aos-duration="2000">
                 <h3 class="section_col_header text-center primary-color">EFFECTIVE AND ADDITIONAL INSTRUCTIONAL PROGRAM</h3>
                 <p class="section_col_text para">In order to enhance the core curriculum, A.C.E. offers a number of other programs and courses beneficial to academic growth and development. Each of these courses adds interest and enhancement to the core curriculum and to other learning activities
                 <br>

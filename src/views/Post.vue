@@ -12,12 +12,12 @@
                     <p>SOL Academy</p>
                 </div>
             </div>
-            <div class="mb-3 text-center">
-                <button class="gallery_button" :class="[source == 'pictures' ? 'gallery_button_active' : null]" @click="changeSource('pictures')" v-if="videos[$route.query.title].length">Pictures</button>
-                <button class="gallery_button" :class="[source == 'videos' ? 'gallery_button_active' : null]" @click="changeSource('videos')" v-if="videos[$route.query.title].length">Videos</button>
+            <div class="mb-3 text-center" data-aos="fade-down" data-aos-duration="2000">
+                <button class="gallery_button transparent_hover_effect" :class="[source == 'pictures' ? 'gallery_button_active' : null]" @click="changeSource('pictures')" v-if="videos[$route.query.title].length">Pictures</button>
+                <button class="gallery_button transparent_hover_effect" :class="[source == 'videos' ? 'gallery_button_active' : null]" @click="changeSource('videos')" v-if="videos[$route.query.title].length">Videos</button>
             </div>
             <section class="row" v-if="source == 'pictures'">
-                <div class="col-md-6" v-for="(image, i) in images[$route.query.title]" :key="i">
+                <div class="col-md-6" v-for="(image, i) in images[$route.query.title]" :key="i" :data-aos="((i + 1) % 2 !== 0) ? 'flip-left' : 'zoom-in'" data-aos-duration="2000">
                     <div class="post_card">
                         <img :src="image"  />
                     </div>

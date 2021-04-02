@@ -5,10 +5,11 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="mai-top-nav">
-                    <b-nav-item :to="{ name: 'home' }" class="text-white ">Home</b-nav-item>
-                    <b-nav-item-dropdown text="About" right class="" >
+                    <b-nav-item :to="{ name: 'home' }" class="text-white">Home</b-nav-item>
+                    <b-nav-item :to="{ name: 'about' }" class="text-white">About</b-nav-item>
+                    <!-- <b-nav-item-dropdown text="About" right class="" >
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'about' }">Head Teacher's  Message </b-dropdown-item>
-                    </b-nav-item-dropdown>
+                    </b-nav-item-dropdown> -->
                     <b-nav-item :to="{ name: 'admission' }" class="text-white ">Admission</b-nav-item>
                     <b-nav-item :to="{ name: 'schoolHours' }" class="text-white ">School Hours</b-nav-item>
                     <b-nav-item-dropdown text="Parents  Corner" right class="">
@@ -39,7 +40,7 @@
                     </b-nav-item-dropdown>
                     <b-nav-item :to="{ name: 'contact' }" class="text-white ">Contact</b-nav-item>
                     <b-nav-item  class="">
-                        <button class="btn btn-white " @click="apply" style="width 156px">Apply Online</button>
+                        <button class="btn btn-white hover_effect" @click="apply" style="width 156px">Apply Online</button>
                     </b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
@@ -49,9 +50,10 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="mai-top-nav">
-                    <b-nav-item :to="{ name: 'home' }" class="text-white ">Home</b-nav-item>
-                    <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'about' }" class="text-white nav_list">About</b-nav-item>
+                    <b-nav-item :to="{ name: 'home' }" class="text-white header_hover">Home</b-nav-item>
+                    <b-nav-item :to="{ name: 'about' }" class="text-white header_hover">About</b-nav-item>
+                    <!-- <div class="nav-parent position-relative">
+                        <b-nav-item :to="{ name: 'about' }" class="text-white nav_list header_hover">About</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
@@ -65,15 +67,15 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <b-nav-item :to="{ name: 'admission' }" class="text-white ">Admission</b-nav-item>
-                    <b-nav-item :to="{ name: 'schoolHours' }" class="text-white ">School Hours</b-nav-item>
+                    </div> -->
+                    <b-nav-item :to="{ name: 'admission' }" class="text-white header_hover">Admission</b-nav-item>
+                    <b-nav-item :to="{ name: 'schoolHours' }" class="text-white header_hover">School Hours</b-nav-item>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'parents_corner' }" class="text-white nav_list">Parents  Corner</b-nav-item>
+                        <b-nav-item :to="{ name: 'parents_corner' }" class="text-white nav_list header_hover">Parents  Corner</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
-                                    <router-link :to="{name: 'about'}" class="dropdown_link">Head Teacher's Message</router-link>
+                                    <router-link :to="{name: 'uniform'}" class="dropdown_link">Uniform</router-link>
                                 </li>
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'attendance'}" class="dropdown_link">Attendance</router-link>
@@ -97,7 +99,7 @@
                         </div>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list">News & Extracurriculars</b-nav-item>
+                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list header_hover">News & Extracurriculars</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
@@ -110,7 +112,7 @@
                         </div>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list">Academic Evaluations</b-nav-item>
+                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list header_hover">Academic Evaluations</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
@@ -126,7 +128,7 @@
                         </div>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list">Documents</b-nav-item>
+                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list header_hover">Documents</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
@@ -147,9 +149,9 @@
                             </ul>
                         </div>
                     </div>
-                    <b-nav-item :to="{ name: 'contact' }" class="text-white ">Contact</b-nav-item>
+                    <b-nav-item :to="{ name: 'contact' }" class="text-white header_hover">Contact</b-nav-item>
                     <b-nav-item  class="">
-                        <button class="btn btn-white " @click="apply" style="width 156px">Apply Online</button>
+                        <button class="btn btn-white hover_effect" @click="apply" style="width 156px">Apply Online</button>
                     </b-nav-item>
                 </b-navbar-nav>
             </b-collapse>

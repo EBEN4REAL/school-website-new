@@ -33,7 +33,7 @@
                 </div>
                 <div class="text-center py-5">
                     <a href="./Prospectus.pdf"  download>
-                        <button class="btn btn-green mt-2">Download prospectus</button>
+                        <button class="btn btn-green mt-2 hover_effect">Download prospectus</button>
                     </a>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="text-left mobile_alignment py-5">
                     <a href="./Fees_Struture.pdf"  download>
-                         <button class="btn btn-green mt-2">Download Fee structure</button>
+                         <button class="btn btn-green mt-2 hover_effect">Download Fee structure</button>
                     </a>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="text-center py-5">
                         <a href="./Application_Form.pdf"  download>
-                            <button class="btn btn-green mt-2">Download application form</button>
+                            <button class="btn btn-green mt-2 hover_effect">Download application form</button>
                         </a>
                     </div>
             </div>

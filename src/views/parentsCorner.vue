@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width policies_container mb-5">
-            <div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
                At Sol Christian Academy we stay in close communication with parents and we value good relationships with the parents of our pupils. Many of our parents volunteer their time as classroom assistants, extras on school trips, minibus drivers, dinner ladies, PTA members and teachers of specialist subjects and our hope is that all parents will contribute in some way to the activity of our school.
                We encourage all prospective parents to make an <a href="" target="_blank"><router-link :to="{name: 'contact'}">appointment</router-link></a>  to come and visit us at the school and see for themselves how effective our particular system of education is.
 

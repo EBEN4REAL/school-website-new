@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="term_container">
-            <div class="term_section">
+            <div class="term_section" data-aos="fade-down" data-aos-duration="2000">
                 <div class="term_header_holder marg_bottom">
                     <div class="left_green_border">
                     </div>
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="term_section">
+            <div class="term_section" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="term_header_holder marg_bottom">
                     <div class="left_green_border">
                     </div>
@@ -144,7 +144,7 @@
                 </div>
             </div>
 
-            <div class="term_section">
+            <div class="term_section" data-aos="fade-up" data-aos-duration="2000">
                 <div class="term_header_holder marg_bottom">
                     <div class="left_green_border">
                     </div>
