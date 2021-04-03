@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding flex_center" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="@/assets/img/school-hours.png" class="school_hours_img">
+                        <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485104/school-hours_irnbfe.png" class="school_hours_img">
                     </div>
                 </div>
                 

@@ -64,7 +64,7 @@
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="@/assets/img/read-master.svg" style="width: 40px;">
+                                            <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485075/read-master_yhn84g.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -78,7 +78,7 @@
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="@/assets/img/type-master.svg" style="width: 40px;">
+                                            <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485146/type-master_nxulr4.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -92,7 +92,7 @@
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="@/assets/img/math-builder.svg" style="width: 40px;">
+                                            <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485048/math-builder_lmidwn.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -106,7 +106,7 @@
                                 <div class="single_media align-items-center">
                                     <div class="dev_img">
                                         <div class="image flex_center ">
-                                            <img src="@/assets/img/word-builder.svg" style="width: 40px;">
+                                            <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485169/word-builder_leesjv.svg" style="width: 40px;">
                                         </div>
                                         
                                     </div>
@@ -118,9 +118,9 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-5 col-md-5 col-sm-12 remove_about_padding text-center flex_start" data-aos="zoom-in" data-aos-duration="2000">
-                            <img class="curriculum_image1" src="@/assets/img/curriculum1.png">
-                            <img class="curriculum_image2" src="@/assets/img/curriculum2.png">
-                            <img class="curriculum_image3" src="@/assets/img/curriculum3.png">
+                            <img class="curriculum_image1" src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617484930/curriculum1_ogvmbc.png">
+                            <img class="curriculum_image2" src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617484970/curriculum2_los65c.png">
+                            <img class="curriculum_image3" src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485000/curriculum3_mchknb.png">
                         </div>
                     </div>
                 </div>
