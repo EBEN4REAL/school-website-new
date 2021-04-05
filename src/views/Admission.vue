@@ -2,136 +2,36 @@
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width mb-4">
             <h4 class="section_col_header text-center py-3 primary-color">It’s as easy as 1, 2, 3</h4>
-            <div class="adm_circle_wrapper position-relative">
-                <div class="adm_circle">
-                    <div class="adm_left_rod"></div>
-                </div>
-            </div>
-            <div class="admission_content_wrapper position-relative">
-                <div class="adm-rod-2"></div>
-                <div class="adm-rod-1"></div>
-                <div class="adm-number-wrapper">
-                    <div>
-                        <span class="primary-color">1</span>
-                    </div>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para">Read through this website (latest information) or download an overview in our prospectus.</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para">To promote attitudes of self-discipline, honesty, integrity, perseverance, Download your own copy of Sol Christian Academy prospectus today.</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para">Everything you need know about how the School operates is found in this prospectus..</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para"> We recommend that you take time to read it and discover what Sol Christian Academy can offer your child in terms of spiritual, social and educational development.</p>
-                </div>
-                <div class="text-center py-5">
+            <div class="admission_file_holder">
+                <div class="admission_file_section first" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <a href="./Prospectus.pdf"  download>
-                        <button class="btn btn-green mt-2 hover_effect">Download prospectus</button>
+                        <button class="header_hover">Download Prospectus</button>
                     </a>
                 </div>
-            </div>
-            <div class="admission_content_wrapper position-relative  mt-4">
-                <div class="adm-number-wrapper-2">
-                    <div>
-                        <span class="primary-color">2</span>
-                    </div>
-                </div>
-                <div class="adm-rod-3"></div>
-                <div class="adm-rod-4"></div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para">Annual School Fees are payable in 12 equal monthly instalments by Standing Order.</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para">The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para"> PACEs that have to be re-issued due to scoring violations will be charged at a rate of £7 each.</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para">Costs for outside activities e.g. field trips, swimming lessons etc. will be extra. We endeavour to keep the costs to a minimum.</p>
-                </div>
-                 <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para"> School uniforms are compulsory. Any child not wearing the school uniform will be sent home if prior arrangements have not been made.</p>
-                </div>
-                <div class="flex_display">
-                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                    <p class="section_col_text para"> If you are interested in sending your child(ren) to our school please complete the attached form and return it to  school administration office.</p>
-                </div>
-                <div class="text-left mobile_alignment py-5">
+                <div class="adm_left_rod" data-aos="fade-down" data-aos-duration="2000"></div>
+                <div class="admission_file_section second" data-aos="zoom-in" data-aos-duration="2000">
                     <a href="./Fees_Struture.pdf"  download>
-                         <button class="btn btn-green mt-2 hover_effect">Download Fee structure</button>
+                         <button class="header_hover">Download Fee structure</button>
+                    </a>
+                </div>
+                <div class="adm_left_rod" data-aos="fade-up" data-aos-duration="2000"></div>
+                <div class="admission_file_section third" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <a href="./Application_Form.pdf"  download>
+                        <button class="header_hover">Download application form</button>
                     </a>
                 </div>
             </div>
-            <div class="admission_content_wrapper position-relative mt-4">
-                    <div class="adm-rod-5"></div>
-                    <div class="adm_circle_2"></div>
-                    <div class="adm-number-wrapper-3">
-                        <div>
-                            <span class="primary-color">3</span>
-                        </div>
-                    </div>
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para">Gathering all the information to better serve you and your child.</p>
-                    </div>
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para">APPLICATION PROCEDURE</p>
-                    </div>
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para"> Your child’s application will include the following: </p>
-                    </div>
-
-
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para">-A Preliminary Application Form must be completed and all relevant documentation presented. </p>
-                    </div>
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para"> -A Diagnostic test must be completed to determine the child’s academic level.</p>
-                    </div>
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para"> -ACE students must bring a copy of their current Supervisor Progress Card.</p>
-                    </div>
-
-
-                     <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para">  -Copies of the child’s birth certificate or ID document and the parent(s) ID document must be handed in.</p>
-                    </div>
-
-
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para">-The parent(s) must attend a Parent Orientation at the beginning of the year of their child’ </p>
-                    </div>
-                    <div class="flex_display">
-                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                        <p class="section_col_text para"> Agreed fees are payable monthly on a regular standing order. Forms must be completed on admission to the School.</p>
-                    </div>
-                    <div class="text-center py-5">
-                        <a href="./Application_Form.pdf"  download>
-                            <button class="btn btn-green mt-2 hover_effect">Download application form</button>
-                        </a>
-                    </div>
+        </div>
+        <div class="full_width_wrapper nursery_holder">
+            <h4 class="section_col_header text-center primary-color">Zero tuition for nursery</h4>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 nursery_admission_img" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617626813/nursery-admission_eonagp.png">
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-duration="2000">
+                    <p class="section_col_text">The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!</p>
+                </div>
             </div>
-            <h4 class="section_col_header text-center py-4 mt-4 primary-color">Find Out More</h4>
         </div>
          <div class="full_width_wrapper open_bible_wrapper "  :style="[{
                 backgroundImage: `linear-gradient(rgb(0, 0, 0 , 0.75), rgb(0, 0, 0 , 0.75)), url(${OpenBibleBG})`,
@@ -144,11 +44,11 @@
             <p class="py-5 ">“For where your treasure is, there your heart will be also.”</p>
         </div>
          <div class="mt-4 centra_para_section">
-            <p class="section_col_text">
+            <p class="section_col_text" data-aos="zoom-in" data-aos-duration="2000">
                 Everyone knows that what we really value is what we invest in. We believe that our children are worth investing in. The financial contribution from each family is kept to a minimum by the sacrificial giving of time, energy, and availability of all the staff involved as well as the generous support of volunteer parents. Sol Christian Academy is very grateful for the financial support it has received from individuals and churches.
             </p>
             <div class="row py-4">
-                <div class="col-md-6 admission_media_wrapper">
+                <div class="col-md-6 admission_media_wrapper" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="admission_media">
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
@@ -168,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 admission_media_wrapper">
+                <div class="col-md-6 admission_media_wrapper" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="admission_media">
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">

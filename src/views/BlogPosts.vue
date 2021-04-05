@@ -4,8 +4,8 @@
             <h3 class="section_col_header text-center primary-color">Latest Posts</h3>
             <section class="row justify-content-between">
                 <div class="col-md-4" v-for="(blog,i) in blogs" :key="i" :data-aos="((i + 1) % 2 !== 0) ? 'flip-left' : 'zoom-in'" data-aos-duration="2000">
-                    <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">
-                        <div class="blog_post">
+                    <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none ">
+                        <div class="blog_post home_cards_hover">
                             <img :src="blog.img">
                             <div class="post_content_holder">
                                 <div class="post_header">

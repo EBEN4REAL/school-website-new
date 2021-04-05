@@ -47,21 +47,22 @@
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732161/Uniform_1_lckzjk.jpg" style="height: 781px;">
                 </div>
             </section>
-            <section class="row justify-content-between align-items-center content_width">
+            <section class="row justify-content-between content_width">
+                <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding about_img_holder" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="about_us_images first_about_img" data-aos="fade-down-right" data-aos-duration="2000">
+                    </div>
+                    <div class="about_us_images second_about_img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    </div>
+                    <div class="about_us_images third_about_img" data-aos="zoom-in" data-aos-duration="2000">
+                    </div>
+                    <div class="about_us_images fourth_about_img" data-aos="fade-up-left" data-aos-duration="2000">
+                    </div>
+                </div>
                 <div class="col-xl-5 col-lg-12 col-md-12" data-aos="zoom-in" data-aos-duration="2000">
-                    <h3 class="section_col_header primary-color">Our Vision</h3>
+                    <h3 class="section_col_header primary-color mb-2">Our Vision</h3>
                     <p class="section_col_text para">The Academy is anchored on the principle of cooperation, which depends on trust and commitment, where parents and teachers help and support one another, pooling resources of time, gifts and finances to provide excellent individualized Christian education to children</p>
-                </div>
-                <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding" data-aos="fade-left" data-aos-duration="2000">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732067/SOL_VISION4_efvm2p.jpg">
-                </div>
-            </section>
-            <section class="row justify-content-between align-items-center content_width">
-                <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding mar_bot" data-aos="fade-right" data-aos-duration="2000">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608732069/SOL_S_AIM1_gotcyc.jpg">
-                </div>
-                <div class="col-xl-5 col-lg-12 col-md-12" data-aos="zoom-in" data-aos-duration="2000">
-                    <h3 class="section_col_header primary-color">Our Aim</h3>
+
+                    <h3 class="section_col_header primary-color mt-4 mb-2">Our Aim</h3>
                     <p class="section_col_text para">SOl Christian Academy is driven by the following goals, which underpin all that we do:</p>
                     <div class="flex_display">
                         <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -86,41 +87,6 @@
                     <div class="flex_display">
                         <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
                         <p class="section_col_text para">To encourage a desire to contribute to others within society, an awareness of the needs of those around and sensitivity to the call of God to find a place of service.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="content_width">
-                <h3 class="section_col_header text-center primary-color">Our Values</h3>
-                <div class="row justify-content-around">
-                    <div class="col-md-4 mb-4" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <a href="./#character">
-                            <div class="about_media flex_column">
-                                <div class="flex_center">
-                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
-                                </div>
-                                <p class="value_name text-center mt-5">Character</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-duration="2000">
-                        <a href="./#leadership">
-                            <div class="about_media flex_column">
-                                <div class="flex_center">
-                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
-                                </div>
-                                <p class="value_name text-center mt-5">Leadership</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <a href="./#academics">
-                            <div class="about_media flex_column">
-                                <div class="flex_center">
-                                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731961/reading_snkigh.svg" style="width: 40px;">
-                                </div>
-                                <p class="value_name text-center mt-5">Academics</p>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </section>

@@ -72,7 +72,7 @@
                     <b-nav-item :to="{ name: 'schoolHours' }" class="text-white header_hover">School Hours</b-nav-item>
                     <div class="nav-parent position-relative">
                         <b-nav-item :to="{ name: 'parents_corner' }" class="text-white nav_list header_hover">Parents  Corner</b-nav-item>
-                        <div style="" class="dropdown_div " >
+                        <div style="" class="dropdown_div">
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'uniform'}" class="dropdown_link">Uniform</router-link>

@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
         <div class="pace_container content_width">
-            <div data-aos="fade-down" data-aos-duration="2000">>
+            <div data-aos="fade-down" data-aos-duration="2000">
                 <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
                     <div class="play_button">
                         <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 

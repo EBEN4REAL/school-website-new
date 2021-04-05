@@ -49,7 +49,7 @@
             </section>
             <div class="content_width curriculum_container">
                 <h3 class="section_col_header primary-color">MULTIMEDIA</h3>
-                <div class="row" data-aos="zoom-in" data-aos-duration="2000">>
+                <div class="row" data-aos="zoom-in" data-aos-duration="2000">
                     <p class="section_col_text para col-xl-7 col-sm-12">
                     Readmaster Plus is an educational software suite that enhances students’ educational experiences while challenging their learning. Readmaster Plus offers four distinct computer software programs:
                     </p>

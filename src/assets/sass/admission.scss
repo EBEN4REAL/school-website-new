@@ -1,3 +1,97 @@
+.admission_file_holder {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    .admission_file_section {
+        width: 240px;
+        height: 280px;  
+        border-radius: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        
+        position: relative;
+        z-index: 1;
+        transition: all 5s;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            transition: opacity 0.5s linear;
+            opacity: 0;
+            border-radius: 10px;
+        }
+        &:hover::before {
+            opacity: 1;
+        }
+        &.first {
+            background-image: linear-gradient(rgb(16, 17, 16, 0.761), rgb(16, 17, 16, 0.761)),
+            url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission1_rml5lu.png");
+            &::before {
+                background-image: linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.6)), url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission1_rml5lu.png");
+            }
+        }
+        &.second {
+            background-image: linear-gradient(rgb(16, 17, 16, 0.761), rgb(16, 17, 16, 0.761)),
+            url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626812/admission2_kvqixs.png");
+            &::before {
+                background-image: linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.6)), url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626812/admission2_kvqixs.png");
+            }
+        }
+        &.third {
+            background-image: linear-gradient(rgb(16, 17, 16, 0.761), rgb(16, 17, 16, 0.761)),
+            url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission3_cxn3i0.png");
+            &::before {
+                background-image: linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.6)), url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission3_cxn3i0.png");
+            }
+        }
+        a {
+            width: 80%;
+            button {
+                width: 100%;
+                background-color: rgb(16, 17, 16, 0);
+                border-radius: 5px;
+                border: 1px solid white;
+                height: 60px;
+                color: white;
+                outline: 0;
+            }
+        }
+        
+    }
+    .adm_left_rod{
+        height: 3px;
+        width: 150px;
+        border-top: 3px dashed $primaryGreen;
+    }
+}
+
+.nursery_holder {
+    background-color: #F8FAFF;
+    padding-top: 37px;
+    padding-bottom: 31px;
+    margin-top: 54px;
+    .section_col_header {
+        margin-bottom: 50px;
+    }
+    .nursery_admission_img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        img {
+            width: 70%;
+        }
+    }
+}
+
 .admission_content_wrapper {
     margin: 0 auto;
     width: 50%;
@@ -171,7 +265,40 @@
         font-size: 23px;
     }
 }
+@media only screen and (max-width: 1024px) {
+    .admission_file_holder {
+        .adm_left_rod{
+            width: 50px;
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    .admission_file_holder {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .adm_left_rod{
+            height: 150px;
+            border-right: 3px dashed $primaryGreen;
+            border-top: 0;
+            width: 0;
+        }
+    }
+
+    .nursery_holder {
+        padding-left: 20px;
+        padding-right: 20px;
+        .nursery_admission_img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            img {
+                width: 70%;
+            }
+        }
+    }
     .adm-rod-2 {
         display: none !important;
     }

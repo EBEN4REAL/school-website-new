@@ -37,6 +37,26 @@
        
     }
 }
+.about_img_holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .about_us_images {
+        position: relative;
+        width: 266px;
+        height: 345px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        background-color: rgb(175, 235, 175);
+        &.second_about_img {
+            background-image: url("https://res.cloudinary.com/sol-academy/image/upload/v1608732067/SOL_VISION4_efvm2p.jpg");
+            top: 100px;
+        }
+    }
+}
+
 .ace_link {
     font-size: 11px;
 }
