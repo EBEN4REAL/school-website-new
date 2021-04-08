@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2018/05/21/23/31/kids-3420032_960_720.png">
         <div class="pace_container content_width uniform_container">
             <p class="section_col_text para" data-aos="fade-down" data-aos-duration="2000">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
             <section class="mb-5">

@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2017/12/22/08/01/literature-3033196_960_720.jpg">
         <div class="pace_container content_width">
             <div class="row">
                 <div class="col-md-6" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <h3 class="section_col_header text-center reports_text primary-color">Reports</h3>
-            <section class="row reports_holder">
+            <section class="row reports_holder justify-content-center">
                 <div class="col-md-3" data-aos="zoom-in" data-aos-duration="2000">
                     <div :style="[{
                         backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.9)), url(${ReportsBgUrl})`,

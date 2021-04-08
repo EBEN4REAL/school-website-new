@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2017/06/17/17/11/learn-2412780_960_720.jpg">
         <div class="content_width">
             <div class="row py-3">
                 <div class="col-md-6" data-aos="fade-down" data-aos-duration="2000">
@@ -23,7 +23,7 @@
                         <p class="text-white"><a  class="text-white" href="http://www.mathplayground.com/games.html" target="_blank">Playground (This is an American site, so be careful with some number and time games)</a></p>
                         <p class="text-white"><a  class="text-white" href="http://www.mathschamps.co.uk/#home" target="_blank">Maths Champs: Games for all subjects and all age </a></p>
                         <p class="text-white"><a  class="text-white" href="http://primarygamesarena.com/Years" target="_blank">groups </a></p>
-                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731856/20190702_123537_teyo14.png"  width="150" />
+                        <img src="https://cdn.pixabay.com/photo/2018/07/08/08/45/abc-3523453_960_720.jpg"  width="150" />
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
@@ -37,7 +37,7 @@
                         <p class="text-white"><a  class="text-white" href="http://www.ictgames.com/lcwc.html">Manythings.org (Aimed at ESL students but includes useful spelling & vocabulary games) (KS2)</a></p>
                         <p class="text-white"><a  class="text-white" href="http://www.manythings.org/e/spelling.html">Spelling city (Vocabulary and spelling interactive activities, printable worksheets, games) (KS2)</a></p>
                         
-                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731853/20190319_143257_rnnqgb.png"  width="120" />
+                        <img src="https://cdn.pixabay.com/photo/2017/07/31/09/35/language-2557036_960_720.jpg"  width="120" />
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                         <p class="text-white"><a  class="text-white" href="http://www.mathplayground.com/games.html" target="_blank">Playground:  (This is an American site, so be careful with some number and time games)</a></p>
                         <p class="text-white"><a  class="text-white" href="http://www.mathschamps.co.uk/#home" target="_blank"> Maths Champs </a></p>
                         <p class="text-white"><a  class="text-white" href="http://primarygamesarena.com/Years" target="_blank">Games for all subjects and all age groups  </a></p>
-                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731856/20190702_123537_teyo14.png"  width="100" />
+                        <img src="https://cdn.pixabay.com/photo/2017/06/17/17/11/learn-2412780_960_720.jpg"  width="100" />
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
@@ -84,7 +84,7 @@ export default {
     },
     data() {
         return {
-            title: 'Kidzone Liks to Website',
+            title: 'Kidzone Links to Website',
         }
     }
 }

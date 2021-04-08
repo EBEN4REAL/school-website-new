@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg">
         <div class="pace_container content_width policies_container">
             <div class="img_holder" data-aos="fade-down" data-aos-duration="2000">
                 <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731858/Group_2973_yxszeh.png"/>

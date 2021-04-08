@@ -25,8 +25,28 @@
         <div class="full_width_wrapper nursery_holder">
             <h4 class="section_col_header text-center primary-color">Zero tuition for nursery</h4>
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-4 nursery_admission_img" data-aos="fade-right" data-aos-duration="2000">
-                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617626813/nursery-admission_eonagp.png">
+                <div class="col-md-4 nursery_slider" data-aos="fade-right" data-aos-duration="2000">
+                    <splide :options="options" data-aos="fade-right" data-aos-duration="2000">
+                        <splide-slide>
+                            <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617626813/nursery-admission_eonagp.png" width="100%" >
+                        </splide-slide>
+                        <splide-slide>
+                            <img src="https://cdn.pixabay.com/photo/2019/10/02/07/15/education-4520228_960_720.jpg" width="100%" >
+                        </splide-slide>
+                        <splide-slide>
+                            <img src="https://cdn.pixabay.com/photo/2014/04/20/19/49/paint-328676_960_720.jpg" width="100%"  >
+                        </splide-slide>
+                        <splide-slide>
+                            <img src="https://cdn.pixabay.com/photo/2018/03/25/21/01/motor-loop-3260697_960_720.jpg" width="100%" >
+                        </splide-slide>
+                        <splide-slide>
+                            <img src="https://cdn.pixabay.com/photo/2019/03/03/11/34/colored-pencils-4031668_960_720.jpg" width="100%" >
+                        </splide-slide>
+                        <splide-slide>
+                            <img src="https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="100%" >
+                        </splide-slide>
+                    </splide>
+                    <!-- <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617626813/nursery-admission_eonagp.png"> -->
                 </div>
                 <div class="col-md-4" data-aos="zoom-in" data-aos-duration="2000">
                     <p class="section_col_text">The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!</p>
@@ -49,7 +69,7 @@
             </p>
             <div class="row py-4">
                 <div class="col-md-6 admission_media_wrapper" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="admission_media">
+                    <div class="admission_media header_hover">
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
                                 <div class="icon_centralised_wrapper">
@@ -69,7 +89,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 admission_media_wrapper" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="admission_media">
+                    <div class="admission_media header_hover">
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
                                 <div class="icon_centralised_wrapper">
@@ -97,17 +117,26 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
 export default {
     name: 'About',
     components: {
+        Splide,
+        SplideSlide,
         MasterLayout
     },
     data() {
         return {
             title: 'Admission',
-            BgUrl : 'https://res.cloudinary.com/sol-academy/image/upload/v1608732104/The-matriculants_sar29j.png',
-            OpenBibleBG: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731943/opened-holy-bible_lnuv6e.png'
+            BgUrl : 'https://cdn.pixabay.com/photo/2016/03/22/07/07/pre-1272291_960_720.jpg',
+            OpenBibleBG: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731943/opened-holy-bible_lnuv6e.png',
+            options: {
+                rewind : true,
+                width  : 800,
+                gap    : '1rem',
+            },
         }
     }
 }

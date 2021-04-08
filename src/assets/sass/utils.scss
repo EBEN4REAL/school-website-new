@@ -86,11 +86,16 @@
     padding-top: 30px;
     height: 491px;
     margin-bottom: 100px;
+    &.school_hours_height {
+        height: auto;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+    }
     &.cur_width {
         height: auto;
     }
     &.school_hours_margin {
-        margin-bottom: 120px;
+        margin-bottom: 55px;
         .school_hours_img {
             width: 80%;
         }

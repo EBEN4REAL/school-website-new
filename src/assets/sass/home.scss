@@ -31,6 +31,324 @@
   }
 }
 
+
+/*** New home starts ***/
+
+.welcome_note_section {
+  margin-bottom: 80px;
+  .welcome_note {
+    // height: 478px;
+    .note_header {
+      background-color: $primaryGreen;
+      height: 80px;
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+    .note_content {
+      min-height: 420px;
+      background-color: white;
+      box-shadow: 0 2px 5px 2px rgb(0 0 0 / 8%);
+      color: $primaryGreen;
+      padding: 15px 25px 35px 25px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      p {
+        font-size: 15px;
+        line-height: 1.8;
+      }
+    }
+  }
+  
+  .welcome_sol_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.home_programs_section {
+  margin-top: 100px;
+  .home_programs_holder {
+    margin: 50px auto 100px auto; 
+    width: 85%;
+    .program_card {
+      transition: all .35s ease-in-out;
+      position: relative;
+      overflow: hidden;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      height: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &.first {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://cdn.pixabay.com/photo/2019/10/02/07/15/education-4520228_960_720.jpg");
+      }
+      &.second {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://cdn.pixabay.com/photo/2016/03/22/07/07/pre-1272291_960_720.jpg");
+      }
+      &.third {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      }
+      &.fourth {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://cdn.pixabay.com/photo/2013/04/19/01/15/university-105709_960_720.jpg");
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        background: linear-gradient(to top,#000 0,transparent 100%);
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+      &::after {
+        transition: all 0.5s ease-in-out;
+        position: absolute;
+        content: '';
+        bottom: -100px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background: $primaryGreen;
+        display: flex;
+        justify-content: center;
+      }
+      &:hover::after {
+        transform: scale(8)
+      }
+      h4 {
+        color: white;
+        font-size: 25px;
+      }
+      p {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+      }
+      .drop_program_card_title {
+        transition: all .25s ease-in-out;
+        z-index: 3;
+        position: relative;
+        top: 100px;
+      }
+      .drop_program_card {
+        transition: all .25s ease-in-out;
+        z-index: 3;
+        position: relative;
+        top: 150px;
+      }
+      &:hover {
+        .drop_program_card {
+          top: 0;
+        }
+        .drop_program_card_title {
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+.important_resources_section {
+  padding: 60px 0;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: #F8F8F8;
+  .resources {
+    h4 {
+      margin-bottom: 60px;
+      text-align: left;
+    }
+    .resources_first {
+      margin-bottom: 80px;
+    }
+    .circular_div {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #D6FFE9;
+    }
+    .resources_content {
+      font-size: 20px;
+      color: #08813E
+    }
+  }
+  .important_resources_img {
+    height: 100%;
+    img {
+      width: 100% !important;
+      object-fit: cover;
+      height: 530px !important;
+    }
+  }
+}
+
+.choose_us_reasons {
+  margin-bottom: 100px;
+  h4 {
+    margin-bottom: 60px;
+  }
+  .choose_us_reason {
+    // height: 180px;
+    img {
+      height: 180px;
+      width: 100% !important;
+      object-fit: cover;
+    }
+    div {
+      padding: 20px 35px 40px 35px;
+      background-color: #F1F1F1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5 {
+        color: #1A1A1A;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #484848;
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.home_blogs {
+  margin: 80px auto; 
+  width: 90%;
+  margin-bottom: 50px;
+  h4 {
+    margin-bottom: 40px;
+  }
+  .home_blog {
+    cursor: pointer;
+    img {
+      width: 100% !important;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 25px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5 {
+        color: #1A1A1A;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #484848;
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+  }
+  .blog_link_button_holder {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    .blog_link_button {
+      cursor: pointer;
+      width: 150px;
+      background-color: #27AE60;
+      padding: 18px 30px;
+      font-size: 18px;
+      color: white;
+      border-radius: 35px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome_note_section {
+    margin-bottom: 30px;
+  }
+
+  .home_programs_section {
+    .home_programs_holder {
+      margin: 50px auto 30px auto; 
+      .program_card {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .important_resources_section {
+    .content_width {
+      width: 95%;
+    }
+    h4 {
+      text-align: center;
+    }
+    .resources {
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .resources_first {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .choose_us_reasons {
+    margin-bottom: 40px;
+    .choose_us_reason {
+      margin-bottom: 20px;
+    }
+  }
+
+  .home_blogs {
+    margin: 40px auto;
+    .home_blog {
+      margin-bottom: 20px;
+    }
+  }
+
+  .ace_curriculum_item {
+    width: 100%;
+    height: 300px;
+    &.last {
+      display: none;
+    }
+  }
+
+  .width-fifty-percent {
+    width: 100% !important;
+  }
+}
+
+
+/*** New home ends ***/
+
 .important_resources_box {
   display: flex;
   flex-flow: column wrap;

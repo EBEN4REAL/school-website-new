@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2016/09/18/03/40/logo-1677364_960_720.png">
         <div class="blog_posts_container content_width">
             <h3 class="section_col_header text-center primary-color">Latest Posts</h3>
             <section class="row justify-content-between">

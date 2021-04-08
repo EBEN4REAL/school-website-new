@@ -34,23 +34,23 @@
         }
         &.first {
             background-image: linear-gradient(rgb(16, 17, 16, 0.761), rgb(16, 17, 16, 0.761)),
-            url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission1_rml5lu.png");
+            url("https://cdn.pixabay.com/photo/2014/04/03/10/02/graduation-309661_960_720.png");
             &::before {
-                background-image: linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.6)), url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission1_rml5lu.png");
+                background-color:rgb(8, 129, 62, 0.5);
             }
         }
         &.second {
             background-image: linear-gradient(rgb(16, 17, 16, 0.761), rgb(16, 17, 16, 0.761)),
-            url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626812/admission2_kvqixs.png");
+            url("https://cdn.pixabay.com/photo/2017/08/30/07/56/clock-2696234_960_720.jpg");
             &::before {
-                background-image: linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.6)), url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626812/admission2_kvqixs.png");
+                background-color:rgb(8, 129, 62, 0.5);
             }
         }
         &.third {
             background-image: linear-gradient(rgb(16, 17, 16, 0.761), rgb(16, 17, 16, 0.761)),
-            url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission3_cxn3i0.png");
+            url("https://cdn.pixabay.com/photo/2016/08/26/15/54/checklist-1622517_960_720.png");
             &::before {
-                background-image: linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.6)), url("https://res.cloudinary.com/dfjzditzc/image/upload/v1617626810/admission3_cxn3i0.png");
+                background-color:rgb(8, 129, 62, 0.5);
             }
         }
         a {
@@ -81,6 +81,12 @@
     margin-top: 54px;
     .section_col_header {
         margin-bottom: 50px;
+    }
+    .nursery_slider {
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
     }
     .nursery_admission_img {
         display: flex;

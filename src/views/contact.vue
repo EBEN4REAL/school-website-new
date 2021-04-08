@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2017/12/02/15/17/contact-us-2993109_960_720.jpg">
         <div class="content_width">
             <div class="row mt-3">
                 <div class="col-lg-5 col-md-4 mt-5 desktop_view">

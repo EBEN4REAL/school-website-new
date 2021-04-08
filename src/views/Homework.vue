@@ -4,11 +4,11 @@
             <div class="text-justify mt-4" data-aos="zoom-in" data-aos-duration="2000">
                 <p class="section_col_text para">Homework is designed to aid the learning process and to train students to organise themselves and to be responsible for their own work. All subjects are expected to set a reasonable amount of homework at least once a week, to mark homework regularly and to write helpful comments for improvement or commendations alongside students' work.</p>
             </div>
-            <div class="row mt-4 mb-5">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731925/HomeworkImage_hvsdzs.jpg" class="hundred-percent-width" />
+            <div class="row mt-4 mb-5 align-items-center">
+                <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="https://cdn.pixabay.com/photo/2018/09/25/11/14/learn-3701963_960_720.jpg" class="hundred-percent-width" />
                 </div>
-                <div class="col-md-8" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="col-md-7" data-aos="zoom-in" data-aos-duration="2000">
                     <p class="section_col_text para remove_p_bottom_border">Curriculum Leaders are expected to keep a check on the quantity and quality of homework given and marking undertaken by Teachers. Monitor Diaries inform the Supervisors of shortfalls, gaps or overloads in the amount of homework given.
                     <br>
                     Each student is issued with a Student Diary at the beginning of each School Year. It is very important that this diary is not defaced, damaged or lost. Replacements cost £2.00 and can be obtained from the Student Reception.
@@ -56,7 +56,7 @@ export default {
     data() {
         return {
             title: 'Homework',
-            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731883/about-us-background-images-for-website-12_flkxr8.png'
+            BgUrl: 'https://cdn.pixabay.com/photo/2015/09/14/07/47/banner-939233_960_720.jpg'
         }
     }
 }

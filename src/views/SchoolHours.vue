@@ -1,6 +1,6 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
-        <div class="content_width school_hours_width uniform_container school_hours_margin">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2015/09/01/09/32/alphabet-916673_960_720.jpg">
+        <div class="content_width school_hours_width school_hours_height uniform_container school_hours_margin">
             <section class="school_hours_margin_auto">
                 <div class="row justify-content-center school_hours">
                     <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot" data-aos="zoom-in" data-aos-duration="2000">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding flex_center" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617485104/school-hours_irnbfe.png" class="school_hours_img">
+                        <img src="https://cdn.pixabay.com/photo/2017/09/18/11/14/school-2761394_960_720.jpg" class="school_hours_img">
                     </div>
                 </div>
                 

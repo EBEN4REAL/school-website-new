@@ -78,7 +78,7 @@ export default {
     data() {
         return {
             title: 'Reading Development',
-            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731883/about-us-background-images-for-website-12_flkxr8.png'
+            BgUrl: 'https://cdn.pixabay.com/photo/2016/02/24/10/52/letter-1219547_960_720.jpg'
         }
     }
 }

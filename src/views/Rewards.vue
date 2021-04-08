@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2016/08/23/01/03/cup-1613315_960_720.jpg">
         <div class="pace_container content_width">
             <p class="section_col_text para" data-aos="fade-down" data-aos-duration="2000">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.</p>
             <section class="mb-5">
@@ -47,7 +47,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6 remove_about_padding" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731954/leadership_1_jgvevn.jpg">
+                        <img src="https://cdn.pixabay.com/photo/2018/07/31/16/15/gavel-3575414_960_720.jpg">
                     </div>
                 </div>
                 <p class="section_col_text para" data-aos="fade-up" data-aos-duration="2000">

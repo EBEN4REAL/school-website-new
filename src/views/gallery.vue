@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="title" BgUrl="https://cdn.pixabay.com/photo/2016/09/13/11/08/browser-1666995_960_720.png">
         <div class="blog_posts_container content_width">
             <div class="mb-3 text-center" data-aos="fade-down" data-aos-duration="2000">
                 <button class="gallery_button mr-2 transparent_hover_effect" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>

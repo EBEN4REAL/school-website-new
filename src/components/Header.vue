@@ -186,7 +186,6 @@ export default {
             Array.from(document.querySelectorAll('.nav-link')).forEach((el, index) => {
                 this.activeNavIndex = index
                 el.addEventListener('mouseover', (e) => {
-                    console.log(e.target)
                     const parentList = e.target.parentNode
                     Array.from(document.querySelectorAll('.dropdown_div')).forEach((el,i) => {
                         if(i == this.activeNavIndex) {

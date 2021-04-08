@@ -106,7 +106,7 @@ export default {
     data() {
         return {
             title: 'About Us',
-            BgUrl: 'https://res.cloudinary.com/sol-academy/image/upload/v1608731883/about-us-background-images-for-website-12_flkxr8.png'
+            BgUrl: 'https://cdn.pixabay.com/photo/2016/03/11/08/02/usa-1249880_960_720.jpg'
         }
     }
 }
