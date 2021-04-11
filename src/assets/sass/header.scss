@@ -86,3 +86,15 @@ ul.navbar-nav.navbar-fixed-top.nav_items.ml-auto {
     color: rgb(255 255 255) !important;
     border-color: rgb(255 255 255) !important;
 }
+
+@media screen and (min-width: 1025px) {
+    .m-nav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .desk-nav {
+        display: none !important;
+    }
+}

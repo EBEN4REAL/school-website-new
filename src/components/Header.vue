@@ -7,12 +7,10 @@
                 <b-navbar-nav class="mai-top-nav">
                     <b-nav-item :to="{ name: 'home' }" class="text-white">Home</b-nav-item>
                     <b-nav-item :to="{ name: 'about' }" class="text-white">About</b-nav-item>
-                    <!-- <b-nav-item-dropdown text="About" right class="" >
-                        <b-dropdown-item class="icon s7-home" :to="{ name: 'about' }">Head Teacher's  Message </b-dropdown-item>
-                    </b-nav-item-dropdown> -->
                     <b-nav-item :to="{ name: 'admission' }" class="text-white ">Admission</b-nav-item>
                     <b-nav-item :to="{ name: 'schoolHours' }" class="text-white ">School Hours</b-nav-item>
-                    <b-nav-item-dropdown text="Parents  Corner" right class="">
+                    <b-nav-item-dropdown text="Parents Corner" right class="centralize_text">
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'parents_corner' }">Parents Corner</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'uniform' }">Uniform</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'attendance' }">Attendance</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'homework' }">Homework</b-dropdown-item>
@@ -22,16 +20,16 @@
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'gallery' }">Gallery</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'parents_corner' }">Parent Corner</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="News & Extracurriculars" right class="">
+                    <b-nav-item-dropdown text="News & Extracurriculars" right class="centralize_text">
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'blogPosts' }">Blog</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'gallery' }">Gallery</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="Academic Evaluations" right class="">
+                    <b-nav-item-dropdown text="Academic Evaluations" right class="centralize_text">
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'reports' }">Ofsted Report</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'pace' }">Pace</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'curriculum' }">Curriculum</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="Documents" right class="">
+                    <b-nav-item-dropdown text="Documents" right class="centralize_text">
                         <b-dropdown-item class="icon s7-home" href="./Prospectus.pdf"  download>Prospectus</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" href="./Fees_Struture.pdf"  download>Fees Structure</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" href="./Application_Form.pdf"  download>Application Form</b-dropdown-item>
@@ -50,30 +48,25 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="mai-top-nav">
-                    <b-nav-item :to="{ name: 'home' }" class="text-white header_hover">Home</b-nav-item>
-                    <b-nav-item :to="{ name: 'about' }" class="text-white header_hover">About</b-nav-item>
-                    <!-- <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'about' }" class="text-white nav_list header_hover">About</b-nav-item>
-                        <div style="" class="dropdown_div " >
-                            <ul class="dropdowm_list">
-                                <li class="dropdowm_list_item">
-                                    <router-link :to="{name: 'about'}" class="dropdown_link">Head Teacher's Message</router-link>
-                                </li>
-                                <li class="dropdowm_list_item">
-                                    <router-link :to="{name: 'about'}" class="dropdown_link">Our Vision</router-link>
-                                </li>
-                                <li class="dropdowm_list_item">
-                                    <router-link :to="{name: 'about'}" class="dropdown_link">Our Aim</router-link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <b-nav-item :to="{ name: 'admission' }" class="text-white header_hover">Admission</b-nav-item>
-                    <b-nav-item :to="{ name: 'schoolHours' }" class="text-white header_hover">School Hours</b-nav-item>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'parents_corner' }" class="text-white nav_list header_hover">Parents  Corner</b-nav-item>
+                        <b-nav-item :to="{ name: 'home' }" class="text-white header_hover">Home</b-nav-item>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item :to="{ name: 'about' }" class="text-white header_hover">About</b-nav-item>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item :to="{ name: 'admission' }" class="text-white header_hover">Admission</b-nav-item>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item :to="{ name: 'schoolHours' }" class="text-white header_hover">School Hours</b-nav-item>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item class="text-white nav_list header_hover">Parents Corner</b-nav-item>
                         <div style="" class="dropdown_div">
                             <ul class="dropdowm_list">
+                                <li class="dropdowm_list_item">
+                                    <router-link :to="{name: 'parents_corner'}" class="dropdown_link">Parents Corner</router-link>
+                                </li>
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'uniform'}" class="dropdown_link">Uniform</router-link>
                                 </li>
@@ -99,7 +92,7 @@
                         </div>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list header_hover">News & Extracurriculars</b-nav-item>
+                        <b-nav-item class="text-white nav_list header_hover">News & Extracurriculars</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
@@ -112,7 +105,7 @@
                         </div>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'blogPosts' }" class="text-white nav_list header_hover">Academic Evaluations</b-nav-item>
+                        <b-nav-item class="text-white nav_list header_hover">Academic Evaluations</b-nav-item>
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
@@ -149,10 +142,14 @@
                             </ul>
                         </div>
                     </div>
-                    <b-nav-item :to="{ name: 'contact' }" class="text-white header_hover">Contact</b-nav-item>
-                    <b-nav-item  class="">
+                    <div class="nav-parent position-relative">
+                        <b-nav-item :to="{ name: 'contact' }" class="text-white header_hover">Contact</b-nav-item>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item  class="">
                         <button class="btn btn-white hover_effect" @click="apply" style="width 156px">Apply Online</button>
                     </b-nav-item>
+                    </div>
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>
@@ -171,35 +168,32 @@ export default {
     },
     mounted() {
         if(screen.width <= 575) {
-            document.querySelector('.m-nav').classList.remove('display-none')
             Array.from(document.querySelectorAll('.nav-link')).forEach((el) => {
                 el.addEventListener('click', (e) => {
-                    const parentList = e.target.parentNode
-                    parentList.parentNode.children[1].style.display = 'block'
-                    parentList.parentNode.children[1].addEventListener('mouseleave' , (e) => {
-                        e.target.style.display = "none"
-                    })
+                    if (el.classList.contains('dropdown-toggle')) {
+                        Array.from(document.querySelectorAll('.dropdown-menu')).forEach(el => {
+                            if (el !== e.target.parentNode.parentNode.children[1]) {
+                                el.style.display = 'none'
+                            }
+                        })
+
+                        const parentList = e.target.parentNode
+                        if (parentList.parentNode.children[1].style.display == 'block') {
+                            parentList.parentNode.children[1].style.display = 'none'
+                        } else {
+                            parentList.parentNode.children[1].style.display = 'block'
+                        }
+                    }
                 })
             })
         }else {
-            document.querySelector('.m-nav').classList.add('display-none')
-            Array.from(document.querySelectorAll('.nav-link')).forEach((el, index) => {
-                this.activeNavIndex = index
+            Array.from(document.querySelectorAll('.nav-link')).forEach((el) => {
                 el.addEventListener('mouseover', (e) => {
                     const parentList = e.target.parentNode
-                    Array.from(document.querySelectorAll('.dropdown_div')).forEach((el,i) => {
-                        if(i == this.activeNavIndex) {
-                            el.style.display = 'block'
-                        }
-
-                        el.style.display = 'none'
-                    })
                     parentList.parentNode.children[1].style.display = 'block'
-                    parentList.parentNode.children[1].addEventListener('mouseleave' , (e) => {
-                        e.target.style.display = "none"
-                        if(this.activeNavIndex ==  10) {
-                            el.parentNode.children[0].style.display = 'inline-block'
-                        }
+                    parentList.parentNode.addEventListener('mouseleave' , (e) => {
+                        console.log(e)
+                        e.target.children[1].style.display = "none"
                     })
                 })
             })

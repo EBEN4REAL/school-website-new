@@ -7,6 +7,20 @@
     font-weight: 600 !important;
 }
 
+.centralize_text {
+    a {
+        text-align: center;
+    }
+}
+
+.dropdown_link {
+    color: $primaryGreen !important;
+}
+
+.dropdown-item {
+    color: $primaryGreen !important;
+}
+
 .hover_effect {
     &:hover {
         box-shadow: 0px 3px 6px #00000029;
@@ -439,14 +453,5 @@
     .remove_col_padding {
         padding-left: 0 !important;
         padding-right: 0 !important;
-    }
-    .display_none {
-        display: none;
-    }
-    .m-nav {
-        display: flex !important;
-    }
-    .desk-nav {
-        display: none !important;
     }
 }
