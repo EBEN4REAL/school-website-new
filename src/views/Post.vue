@@ -1,7 +1,7 @@
 <template>
-    <MasterLayout :title="formatTitle" BgUrl="https://res.cloudinary.com/sol-academy/image/upload/v1608732173/write-good-blog-article-t-more-traffic1_ca0agq.png">
+    <MasterLayout :title="formatTitle" :BgUrl="backImg[$route.query.title]">
         <div class="posts_container content_width">
-            <h3 class="section_col_header text-center primary-color">{{ formatTitle }}</h3>
+            <!-- <h3 class="section_col_header text-center primary-color">{{ formatTitle }}</h3> -->
             <div class="post_header">
                 <div class="post_date">
                     <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>
@@ -75,6 +75,14 @@ export default {
             title: 'Post',
             postTitle: 'School Update',
             source: 'pictures',
+            backImg: {
+                'tree-top': 'https://res.cloudinary.com/sol-academy/image/upload/v1608732871/first_mlhpfp.jpg',
+                'sports-day': 'https://res.cloudinary.com/sol-academy/image/upload/v1608732759/first_u943km.jpg',
+                'sol-park': 'https://res.cloudinary.com/sol-academy/image/upload/v1608732727/first_y7penx.jpg',
+                'sol-tennis': 'https://res.cloudinary.com/sol-academy/image/upload/v1608732784/first_bgqzlh.jpg',
+                'museum': 'https://res.cloudinary.com/sol-academy/image/upload/v1608732685/first_tgyytk.jpg',
+                'legoland': 'https://res.cloudinary.com/sol-academy/image/upload/v1608732653/first_jifgdq.jpg', 
+            },
             images: {
                 'tree-top': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732871/first_mlhpfp.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732866/second_jzvdra.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732856/third_ls1nes.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732853/fourth_hwqvdm.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732876/fifth_k5kh86.jpg'],
                 'sports-day': ['https://res.cloudinary.com/sol-academy/image/upload/v1608732759/first_u943km.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732800/second_mfdrcs.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732802/third_dxxmhb.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732796/fourth_mjlyaf.jpg', 'https://res.cloudinary.com/sol-academy/image/upload/v1608732766/fifth_puqleq.jpg'],

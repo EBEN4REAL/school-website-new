@@ -40,7 +40,6 @@
                         </ul>
                     </div>
                 </div>
-                
             </section>
             <section class="mb-5">
                 <h3 class="section_col_header text-center primary-color">THE A.C.E. PROGRAM</h3>

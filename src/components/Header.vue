@@ -192,7 +192,6 @@ export default {
                     const parentList = e.target.parentNode
                     parentList.parentNode.children[1].style.display = 'block'
                     parentList.parentNode.addEventListener('mouseleave' , (e) => {
-                        console.log(e)
                         e.target.children[1].style.display = "none"
                     })
                 })
@@ -202,7 +201,7 @@ export default {
     methods: {
       apply(e) {
         e.preventDefault();
-        alert("Online Application Form would be Laucnhed soon")
+        alert("Online Application Form would be launched soon")
       },
     }
 }

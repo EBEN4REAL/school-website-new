@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="full_width_wrapper nursery_holder">
+        <div class="full_width_wrapper nursery_holder" id="admission_nursery">
             <h4 class="section_col_header text-center primary-color">Zero tuition for nursery</h4>
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-4 nursery_slider" data-aos="fade-right" data-aos-duration="2000">
@@ -138,6 +138,11 @@ export default {
                 gap    : '1rem',
             },
         }
-    }
+    },
+    mounted() {
+        var section = this.$route.query.view ? true : false
+        if (section)
+            this.$nextTick(()=> window.document.getElementById('admission_nursery').scrollIntoView());
+    },
 }
 </script>

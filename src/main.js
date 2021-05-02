@@ -8,7 +8,6 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import VueMoment from 'vue-moment';
 
 
-
 Vue.use(BootstrapVue);
 Vue.use( VueSplide );
 Vue.use(VueMoment)

@@ -24,7 +24,7 @@
 .hover_effect {
     &:hover {
         box-shadow: 0px 3px 6px #00000029;
-        transform: translateY(-1px);
+        transform: translateY(-3px);
         transition: 0.5s all;
     }
 } 
@@ -50,6 +50,11 @@
         box-shadow: 0px 3px 6px #00000029;
         transform: translateY(-6px);
         transition: 0.5s all;
+    }
+    &.home_blog_hover {
+        &:hover {
+            transform: translateY(-12px);
+        }
     }
 }
 
@@ -92,13 +97,18 @@
 .content_width {
     margin: 0 auto; 
     width: 85%;
+
+}
+.home_nursery_width {
+    margin: 0 auto; 
+    width: 92%;
+    
 }
 .school_hours_width {
     width: 100%;
     background-color: #F5F5F5;
     margin-top: 50px;
     padding-top: 30px;
-    height: 491px;
     margin-bottom: 100px;
     &.school_hours_height {
         height: auto;

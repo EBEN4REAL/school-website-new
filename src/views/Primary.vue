@@ -7,8 +7,7 @@
                         <img src="https://cdn.pixabay.com/photo/2016/07/14/17/27/family-1517192_960_720.jpg">
                     </div>
                     <div class="col-xl-7 col-lg-12 col-md-12" data-aos="zoom-in" data-aos-duration="2000">
-                        At Sol Christian Academy we stay in close communication with parents and we value good relationships with the parents of our pupils. Many of our parents volunteer their time as classroom assistants, extras on school trips, minibus drivers, dinner ladies, PTA members and teachers of specialist subjects and our hope is that all parents will contribute in some way to the activity of our school.
-                        We encourage all prospective parents to make an <a href="" target="_blank"><router-link :to="{name: 'contact'}">appointment</router-link></a>  to come and visit us at the school and see for themselves how effective our particular system of education is.
+                        At Sol Academy Primary School, we choose to care. We create a safe and stimulating environment where we respect the property of others and ourselves and we care for and about each other, showing respect and understanding. We also recognise and respect individuality and children’s differing experiences. We recognise and nurture all forms of creativity, delivering a curriculum that develops communication, representation and self-expression, production, performance, presentation and enterprise, originality, thinking skills and problem solving. We have an enviable Mandarin and French teaching program which are run by world class tutors. We aim to enable everyone to realise their full potential, to encourage self-motivation, and encourage children to be proud of their own achievements.
                     </div>
                 </div>
             </section>
@@ -25,7 +24,7 @@ export default {
     },
     data() {
         return {
-            title: 'Parents Corner',
+            title: 'Primary School',
         }
     }
 }

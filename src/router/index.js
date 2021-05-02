@@ -22,6 +22,9 @@ import Gallery from "@/views/gallery"
 import Attendance from "@/views/Attendance"
 import TermDates from "@/views/termDates"
 import ParentsCorner from "@/views/parentsCorner"
+import Primary from "@/views/Primary"
+import HighSchool from "@/views/HighSchool"
+import College from "@/views/College"
 
 Vue.use(VueRouter);
 
@@ -130,6 +133,21 @@ let routes = [
     name: 'termDates',
     path: '/term-dates',
     component: TermDates
+  },
+  {
+    name: 'primary',
+    path: '/primary-school',
+    component: Primary
+  },
+  {
+    name: 'highSchool',
+    path: '/high-school',
+    component: HighSchool
+  },
+  {
+    name: 'college',
+    path: '/college',
+    component: College
   },
 ];
 
