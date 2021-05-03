@@ -103,7 +103,7 @@
         </div>
         <div class="footer_bottom py-3">
             <div class="footer_bottom_inner_container">
-               <div>
+               <!-- <div>
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731886/logo_qymv7k.png" width="60" class="mr-3" /> 
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731892/ace_efjidj.jpg" width="60"  /> 
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731947/Pace-logo_2_lkxhep.jpg" width="60"  /> 
@@ -111,6 +111,17 @@
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731940/Ofsted_Good_GP_cphpz1.jpg" width="60"  /> 
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731953/premier_league_11_emgea3.png" width="120"  /> 
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731954/premier_league_primary_stars_khxz78.jpg" width="120"  /> 
+
+                    
+                </div>  -->
+                <div>
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731886/logo_qymv7k.png" width="60" class="mr-3" /> 
+                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1620066057/output-onlinepngtools_6_okt4dr.png" width="90"  /> 
+                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1620065791/output-onlinepngtools_3_mw65vg.png" width="90"  /> 
+                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1620065757/output-onlinepngtools_4_ye7ndy.png" width="127"  />
+                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731940/Ofsted_Good_GP_cphpz1.jpg" width="60"  /> 
+                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1620065624/output-onlinepngtools_2_javp3h.png" width="120"  /> 
+                    <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1620065561/output-onlinepngtools_7_ng23vd.png" width="150"  /> 
 
                     
                 </div> 

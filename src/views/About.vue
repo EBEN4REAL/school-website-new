@@ -2,7 +2,7 @@
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="about_container">
             <section class="content_width">
-                <h3 class="section_col_header text-center py-4 primary-color">Message from the HeadMistress</h3>
+                <h3 class="section_col_header text-center primary-color">Message from the HeadMistress</h3>
                 <div class="row align-items-center">
                     <div class="col-xl-4 col-lg-12 col-md-12 remove_about_padding fourth_about_image" data-aos="fade-right" data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731921/Headteacher_Pic_1_csgwyr.jpg">

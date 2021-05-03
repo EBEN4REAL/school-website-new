@@ -25,6 +25,7 @@ import ParentsCorner from "@/views/parentsCorner"
 import Primary from "@/views/Primary"
 import HighSchool from "@/views/HighSchool"
 import College from "@/views/College"
+import GCSE from "@/views/Gcse"
 
 Vue.use(VueRouter);
 
@@ -148,6 +149,11 @@ let routes = [
     name: 'college',
     path: '/college',
     component: College
+  },
+  {
+    name: 'gcseTutorials',
+    path: '/gcse-tutorials',
+    component: GCSE
   },
 ];
 

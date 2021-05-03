@@ -235,15 +235,15 @@
                     </div>
                     <div class="upcoming_events_content">
                         <div>
-                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731869/about-fourth_a1puzn.png"/>
+                            <img src="https://cdn.pixabay.com/photo/2016/12/11/08/01/coming-soon-1898936_960_720.jpg"/>
                             <p>17th Thursday 2020: Commencement of Half Term</p>
                         </div>
                         <div>
-                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731869/about-fourth_a1puzn.png"/>
+                            <img src="https://cdn.pixabay.com/photo/2017/06/10/07/22/news-2389226_960_720.png"/>
                             <p>The management of SOL Academy wish you a prosperous Christmas holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations</p>
                         </div>
                         <div>
-                            <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731869/about-fourth_a1puzn.png"/>
+                            <img src="https://cdn.pixabay.com/photo/2017/06/10/06/39/calender-2389150_960_720.png"/>
                             <p>The management of SOL Academy wish you a prosperous Christmas holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations</p>
                         </div>
                     </div>
@@ -252,7 +252,7 @@
        </section>
        <section class="home_nursery_width welcome_note_section">
            <div class="home_nursery">
-               <div ref="nursery_text" class="hide_me">
+               <div>
                    <!-- <vue-typed-js :style="{ width: '100%'}" :strings="['Zero tuition for nursery']" :showCursor="true">
                         <h1 class="typing text-center"></h1>
                    </vue-typed-js> -->
@@ -307,7 +307,7 @@
            <h4 class="bold_text text-center header_content primary-color">Here are some reasons why you should choose us</h4>
            <div class="row">
                 <div class="col-md-3 choose_us_reason" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <img src="https://cdn.pixabay.com/photo/2018/04/18/18/56/leadership-3331244_960_720.jpg"/>
+                    <img src="https://cdn.pixabay.com/photo/2015/01/30/07/58/businesswoman-617129_960_720.jpg"/>
                     <div>
                         <h5>Leadership</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
@@ -449,17 +449,6 @@ export default {
         showVideo: false
       }
     },
-    // mounted() {
-    //     const nurseryText = this.$refs.nursery_text
-    //     window.addEventListener('scroll', () => {
-    //         if (window.scrollY >= (nurseryText.offsetTop - window.innerHeight)) {
-    //             nurseryText.classList.remove('hide_me')
-    //             console.log(window.scrollY)
-    //         } else {
-    //             nurseryText.classList.add('hide_me')
-    //         }
-    //     })
-    // },
     computed: {
         todaysDate() {
             const todaysDate = this.$moment(new Date()).format("DD MMMM YYYY")

@@ -98,6 +98,7 @@
           margin-right: 30px;
           width: 90px;
           height: 90px;
+          object-fit: contain;
         }
         p {
           color: #303030;
@@ -196,6 +197,18 @@
       &.fourth {
         background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://cdn.pixabay.com/photo/2013/04/19/01/15/university-105709_960_720.jpg");
       }
+      &.high_school_1 {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://media.istockphoto.com/vectors/certificate-or-diploma-template-luxury-modern-style-vector-id1243050502?s=612x612");
+      }
+      &.high_school_2 {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://media.istockphoto.com/vectors/certificate-template-diploma-of-modern-design-or-gift-certificate-vector-id1244934678?s=612x612");
+      }
+      &.high_school_3 {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://cdn.pixabay.com/photo/2014/04/03/10/45/teaching-311356__340.png");
+      }
+      &.college_3 {
+        background-image: linear-gradient(rgb(16, 17, 16, 0.461), rgb(16, 17, 16, 0.461)), url("https://media.istockphoto.com/vectors/blue-color-certificate-for-award-and-education-vector-template-design-vector-id1268178359?s=612x612");
+      }
       &::before {
         content: '';
         position: absolute;
@@ -240,6 +253,9 @@
         z-index: 3;
         position: relative;
         top: 100px;
+        &.high_school {
+          top: 50px;
+        }
       }
       .drop_program_card {
         transition: all .25s ease-in-out;

@@ -17,8 +17,6 @@
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'termDates' }">Term Dates</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'rewardsAndSanctions' }">Reward & Sanction</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'policies' }">Policies</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-home" :to="{ name: 'gallery' }">Gallery</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-home" :to="{ name: 'parents_corner' }">Parent Corner</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="News & Extracurriculars" right class="centralize_text">
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'blogPosts' }">Blog</b-dropdown-item>
@@ -84,9 +82,6 @@
                                 </li>
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'policies'}" class="dropdown_link">Policies</router-link>
-                                </li>
-                                <li class="dropdowm_list_item">
-                                    <router-link :to="{name: 'gallery'}" class="dropdown_link">Gallery</router-link>
                                 </li>
                             </ul>
                         </div>
