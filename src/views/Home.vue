@@ -16,170 +16,44 @@
                 @sliding-end="onSlideEnd"
                 >
                  <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732168/welcome_to_SOL_Academy3_wuhxfv.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text"></h3>
-                                <p class="banner__header__para mt-3">
-
-                                </p>
-                                <div>
-                                    
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732083/SOL_Academy_Christmas_Greetings3_kcpeoa.jpg">
-                    <!-- <div class="image-overlay"></div> -->
+                <!-- Below is Christmas image to be used during christmas period -->
+                <!-- <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732083/SOL_Academy_Christmas_Greetings3_kcpeoa.jpg">
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text"></h3>
-                                <p class="banner__header__para mt-3">
-                                </p>
-                                <div>
-                                    
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
-                </b-carousel-slide>
+                </b-carousel-slide> -->
                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732076/slider_nco4ps.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">	High quality education services; Find a balance of Values, Academics and Morals today!
-                                </p>
-                                <div>
-                                    <b-link to="/development"  >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732039/slider_2_n2b1om.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">At SOL, we ensure a good mental balance by engaging with an array of extracurricular programs and activities while attaining our set goals; what are you waiting for?
-                                </p>
-                                <div>
-                                    <b-link to="/school-hours" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                  <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732041/slider_9_ktvaed.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">At SOL: You can count on us for the right environment to equip and for effective learning.
-                                </p>
-                                <div>
-                                    <b-link to="/school-hours" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732107/slider_8_uzzxoz.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">AT SOL Academy, we promote an equal, diverse working relationship between the staff members and pupils enabling us to work together as one happy family; this viewpoint brings us together and culminates in the attainment of our goals.
-                                </p>
-                                <div>
-                                    <b-link to="/blog-posts" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                  <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732064/slider_7_axtbxf.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">As we await a better future, we don’t fold our hands at SOL Academy; we share and demonstrate an optimistic belief system; hence, the need of investing in the formative structure and platform that is responsible for the anticipated future transformation. 
-                                </p>
-                                <div>
-                                    <b-link to="/gallery" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                  <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732051/slider_4_endipt.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                         <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">At SOL, we ensure a good mental balance by engaging with an array of extracurricular programs and activities while attaining our set goals; what are you waiting for?
-                                </p>
-                                <div>
-                                     <b-link to="/blog-post" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                  <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608732005/slider_3_haihb9.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                        <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">At SOL: You can count on us for the right environment to equip and for effective learning.
-                                </p>
-                                <div>
-                                     <b-link to="/development" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
                 <b-carousel-slide img-src="https://res.cloudinary.com/sol-academy/image/upload/v1608731976/Main_slider_y5ewvo.jpg">
-                    <!-- <div class="image-overlay"></div> -->
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px">
-                        <!-- <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">As we await a better future, we don’t fold our hands at SOL Academy; we share and demonstrate an optimistic belief system; hence, the need of investing in the formative structure and platform that is responsible for the anticipated future transformation.
-                                </p>
-                                <div>
-                                     <b-link to="/gallery" class="text-decoration-none " >
-                                        <button class="btn btn-white mt-3 mb-3 home_hover_effect">Learn More</button>
-                                    </b-link>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-carousel-slide>
             </b-carousel>
@@ -229,7 +103,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-5 upcoming_events" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-5 upcoming_events home_back" data-aos="fade-up" data-aos-duration="2000">
                     <div class="note_header">
                         <h4 class="upcoming_events_header">Upcoming Events</h4>
                     </div>
@@ -265,7 +139,7 @@
                </div>
            </div>
        </section>
-       <section class="important_resources_section">
+       <section class="important_resources_section home_back">
            <div class="row content_width">
                <div class="col-md-6 resources">
                    <h4 class="bold_text header_content primary-color">Important Resources</h4>
@@ -358,7 +232,7 @@
                             <source src="https://res.cloudinary.com/dfjzditzc/video/upload/v1608716314/DVD-Sol_Academy_Testimonial_vcjak1.mov" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <div class="ace_curriculum_item last" :class="[!vid.video ? 'width-hundred' : null]">
+                        <div class="ace_curriculum_item last home_back" :class="[!vid.video ? 'width-hundred' : null]">
                             <div class="text-center py-4">
                                 <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731851/grade-24px_1_onwft7.svg" v-for="(a, i) in 5" :key="i" class="mr-2 testimonaial_rate" width="30" />
                             </div>
@@ -376,7 +250,7 @@
               </vueper-slide>
             </vueper-slides>
         </section>
-        <section class="home_blogs">
+        <section class="home_blogs home_back">
            <div class="home_blog_div">
                 <h4 class="bold_text text-center header_content primary-color">Blog</h4>
                 <div class="row">

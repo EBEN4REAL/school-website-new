@@ -77,7 +77,7 @@
                                 <label>Message</label>
                                 <textarea name="message" class="form-control" id="" cols="10" rows="4" placeholder="Give as many details as possible…"></textarea>
                                 </div>
-                                 <button type="submit" class="btn btn_submit mb-3 hover_effect">Submit</button>
+                                 <button type="submit" class="btn btn_submit mb-3 hover_effect" @click="submitForm">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -103,6 +103,12 @@ export default {
     data() {
         return {
             title: 'Contact Us',
+        }
+    },
+    methods: {
+        submitForm(e) {
+            e.preventDefault();
+            alert(`Write to us will be coming soon`)
         }
     }
 }
