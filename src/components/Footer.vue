@@ -16,6 +16,9 @@
                                 <router-link :to="{ name: 'homework' }">Homework</router-link>
                             </div>
                             <div class="footer_menu_item">
+                                <router-link :to="{ name: 'schoolHours' }">School Hours</router-link>
+                            </div>
+                            <div class="footer_menu_item">
                                 <router-link :to="{ name: 'reports' }">Ofsted Reports</router-link>
                             </div>
                             <div class="footer_menu_item">

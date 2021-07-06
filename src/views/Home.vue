@@ -182,30 +182,46 @@
            <div class="row">
                 <div class="col-md-3 choose_us_reason" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="https://cdn.pixabay.com/photo/2015/01/30/07/58/businesswoman-617129_960_720.jpg"/>
-                    <div>
+                    <div class="inner_choose">
                         <h5>Leadership</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <div class="blog_link_button_holder">
+                            <router-link to="/reasons-to-choose-us#leadership" class="text-decoration-none text-center">
+                                <div class="blog_link_button header_hover">Read More</div>
+                            </router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 choose_us_reason" data-aos="zoom-in" data-aos-duration="2000">
                     <img src="https://cdn.pixabay.com/photo/2015/11/13/10/07/smiley-1041796_960_720.jpg"/>
-                    <div>
+                    <div class="inner_choose">
                         <h5>Character</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <div class="blog_link_button_holder">
+                            <router-link to="/reasons-to-choose-us#character" class="text-decoration-none text-center">
+                                <div class="blog_link_button header_hover">Read More</div>
+                            </router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 choose_us_reason" data-aos="zoom-in" data-aos-duration="2000">
                     <img src="https://cdn.pixabay.com/photo/2015/09/03/20/14/back-to-school-921254_960_720.jpg"/>
-                    <div>
+                    <div class="inner_choose">
                         <h5>Academics</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <div class="blog_link_button_holder">
+                            <router-link to="/reasons-to-choose-us#academics" class="text-decoration-none text-center">
+                                <div class="blog_link_button header_hover">Read More</div>
+                            </router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 choose_us_reason" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="https://cdn.pixabay.com/photo/2016/10/19/10/29/rules-1752625_960_720.png"/>
-                    <div>
+                    <div class="inner_choose">
                         <h5>Morals</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <div class="blog_link_button_holder">
+                            <router-link to="/reasons-to-choose-us#character" class="text-decoration-none text-center">
+                                <div class="blog_link_button header_hover">Read More</div>
+                            </router-link>
+                        </div>
                     </div>
                 </div>
            </div>

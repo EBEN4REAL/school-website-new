@@ -329,7 +329,7 @@
       width: 100% !important;
       object-fit: cover;
     }
-    div {
+    .inner_choose {
       padding: 20px 35px 40px 35px;
       background-color: #DEEAF3;
       display: flex;
@@ -340,6 +340,19 @@
         font-size: 25px;
         font-weight: bold;
         margin-bottom: 20px;
+      }
+      .blog_link_button_holder {
+        display: flex;
+        justify-content: center;
+        .blog_link_button {
+          cursor: pointer;
+          width: 150px;
+          background-color: #27AE60;
+          padding: 12px 22px;
+          font-size: 18px;
+          color: white;
+          border-radius: 35px;
+        }
       }
       p {
         color: #484848;

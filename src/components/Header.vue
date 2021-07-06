@@ -8,7 +8,6 @@
                     <b-nav-item :to="{ name: 'home' }" class="text-white">Home</b-nav-item>
                     <b-nav-item :to="{ name: 'about' }" class="text-white">About</b-nav-item>
                     <b-nav-item :to="{ name: 'admission' }" class="text-white ">Admission</b-nav-item>
-                    <b-nav-item :to="{ name: 'schoolHours' }" class="text-white ">School Hours</b-nav-item>
                     <b-nav-item-dropdown text="Parents Corner" right class="centralize_text">
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'parents_corner' }">Parents Corner</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'uniform' }">Uniform</b-dropdown-item>
@@ -17,6 +16,34 @@
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'termDates' }">Term Dates</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'rewardsAndSanctions' }">Reward & Sanction</b-dropdown-item>
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'policies' }">Policies</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Student Portal" right class="centralize_text">
+                        <b-dropdown-item class="icon s7-home" target="_blank" href=" https://teams.office.com/">Microsoft Teams</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.office.com/">Microsoft 365</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://teams.microsoft.com/_#/apps/66aeee93-507d-479a-a3ef-8f494af43945/sections/classroom">Teams Assignment</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.hamilton-trust.org.uk/">Hamilton Trust English Maths Science</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://app.seesaw.me/#/login">Seesaw</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.edshed.com/en-gb">Edshed</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.oxfordowl.co.uk/login?active-tab=students">Oxford Owl</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.mathshed.com/en-gb/browse/">Mathshed</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://classroom.thenational.academy/subjects-by-key-stage">Oak Academy</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.languagenut.com/en-gb/">Languagenut</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://classroomsecrets.co.uk/">Classroom Secrets</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.edplace.com/worksheets">Edplace</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.twinkl.co.uk/">Twinkl</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.starfall.com/h/">Starfall</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.literacyshed.com/">The Literacy Shed</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.bbc.co.uk/teach">BBC Teach</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://readingeggs.co.uk/schools/">Reading Eggs</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://resources.whiterosemaths.com/resources/">White Rose Maths</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.bbc.co.uk/bitesize">BBC Bitesize</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.ruthmiskin.com/en/">Ruth Miskin Training</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.instagram.com/savewithstories/">Save with Stories</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.worldofdavidwalliams.com/elevenses-catch-up/">The World of David Walliams</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Staff Portal" right class="centralize_text">
+                        <b-dropdown-item class="icon s7-home" target="_blank" href=" https://teams.office.com/">Microsoft Teams</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" target="_blank" href="https://www.office.com/">Microsoft 365</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="News & Extracurriculars" right class="centralize_text">
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'blogPosts' }">Blog</b-dropdown-item>
@@ -56,9 +83,6 @@
                         <b-nav-item :to="{ name: 'admission' }" class="text-white header_hover">Admission</b-nav-item>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item :to="{ name: 'schoolHours' }" class="text-white header_hover">School Hours</b-nav-item>
-                    </div>
-                    <div class="nav-parent position-relative">
                         <b-nav-item class="text-white nav_list header_hover">Parents Corner</b-nav-item>
                         <div style="" class="dropdown_div">
                             <ul class="dropdowm_list">
@@ -82,6 +106,92 @@
                                 </li>
                                 <li class="dropdowm_list_item">
                                     <router-link :to="{name: 'policies'}" class="dropdown_link">Policies</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item class="text-white nav_list header_hover">Student Portal</b-nav-item>
+                        <div style="" class="dropdown_div " >
+                            <ul class="dropdowm_list">
+                                <li class="dropdowm_list_item">
+                                    <a href="https://teams.office.com/" target="_blank" class="dropdown_link">Microsoft Teams</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.office.com/" target="_blank" class="dropdown_link">Microsoft 365</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://teams.microsoft.com/_#/apps/66aeee93-507d-479a-a3ef-8f494af43945/sections/classroom" target="_blank" class="dropdown_link">Teams Assignment</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.hamilton-trust.org.uk/" target="_blank" class="dropdown_link">Hamilton Trust English Maths Science</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://app.seesaw.me/#/login" target="_blank" class="dropdown_link">Seesaw</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.edshed.com/en-gb" target="_blank" class="dropdown_link">Edshed</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.oxfordowl.co.uk/login?active-tab=students" target="_blank" class="dropdown_link">Oxford Owl</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.mathshed.com/en-gb/browse/" target="_blank" class="dropdown_link">Mathshed5</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://classroom.thenational.academy/subjects-by-key-stage" target="_blank" class="dropdown_link">Oak Academy</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.languagenut.com/en-gb/" target="_blank" class="dropdown_link">Languagenut</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://classroomsecrets.co.uk/" target="_blank" class="dropdown_link">Classroom Secrets</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.edplace.com/worksheets" target="_blank" class="dropdown_link">Edplace</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.twinkl.co.uk/" target="_blank" class="dropdown_link">Twinkl</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.starfall.com/h/" target="_blank" class="dropdown_link">Starfall</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.literacyshed.com/" target="_blank" class="dropdown_link">The Literacy Shed</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.bbc.co.uk/teach" target="_blank" class="dropdown_link">BBC Teach</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://readingeggs.co.uk/schools/" target="_blank" class="dropdown_link">Reading Eggs</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://resources.whiterosemaths.com/resources/" target="_blank" class="dropdown_link">White Rose Maths</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.bbc.co.uk/bitesize" target="_blank" class="dropdown_link">BBC Bitesize</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.ruthmiskin.com/en/" target="_blank" class="dropdown_link">Ruth Miskin Training</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.instagram.com/savewithstories/" target="_blank" class="dropdown_link">Save with Stories</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.worldofdavidwalliams.com/elevenses-catch-up/" target="_blank" class="dropdown_link">The World of David Walliams</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-parent position-relative">
+                        <b-nav-item class="text-white nav_list header_hover">Staff Portal</b-nav-item>
+                        <div style="" class="dropdown_div " >
+                            <ul class="dropdowm_list">
+                                <li class="dropdowm_list_item">
+                                    <a href="https://teams.office.com/" target="_blank" class="dropdown_link">Microsoft Teams</a>
+                                </li>
+                                <li class="dropdowm_list_item">
+                                    <a href="https://www.office.com/" target="_blank" class="dropdown_link">Microsoft 365</a>
                                 </li>
                             </ul>
                         </div>

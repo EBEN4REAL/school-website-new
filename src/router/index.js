@@ -26,6 +26,7 @@ import Primary from "@/views/Primary"
 import HighSchool from "@/views/HighSchool"
 import College from "@/views/College"
 import GCSE from "@/views/Gcse"
+import Reasons from "@/views/Reasons"
 
 Vue.use(VueRouter);
 
@@ -155,6 +156,11 @@ let routes = [
     path: '/gcse-tutorials',
     component: GCSE
   },
+  {
+    name: 'reasonsToChooseUs',
+    path: '/reasons-to-choose-us',
+    component: Reasons
+  }
 ];
 
 const router = new VueRouter({
