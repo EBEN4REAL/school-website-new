@@ -55,15 +55,13 @@
                         <b-dropdown-item class="icon s7-home" :to="{ name: 'curriculum' }">Curriculum</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Documents" right class="centralize_text">
-                        <b-dropdown-item class="icon s7-home" href="./Prospectus.pdf"  download>Prospectus</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-home" href="./Fees_Struture.pdf"  download>Fees Structure</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-home" href="./Application_Form.pdf"  download>Application Form</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-home" href="./Application_Form.pdf"  download>Payment</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-home" href="./Application_Form.pdf"  download>Fees</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" href="./Prospectus.pdf" target="_blank">Prospectus</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" href="./Fees_Struture.pdf" target="_blank">Fees Structure</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" href="./Ofsted.pdf" target="_blank">Ofsted Report</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item :to="{ name: 'contact' }" class="text-white ">Contact</b-nav-item>
-                    <b-nav-item  class="">
-                        <button class="btn btn-white hover_effect" @click="apply" style="width 156px">Apply Online</button>
+                    <b-nav-item  class="" :to="{ name: 'application' }">
+                        Apply Online
                     </b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
@@ -230,19 +228,13 @@
                         <div style="" class="dropdown_div " >
                             <ul class="dropdowm_list">
                                 <li class="dropdowm_list_item">
-                                    <a href="./Prospectus.pdf"  download class="dropdown_link">Prospectus</a>
+                                    <a href="./Prospectus.pdf" target="_blank" class="dropdown_link">Prospectus</a>
                                 </li>
                                 <li class="dropdowm_list_item">
-                                    <a href="./Fees_Struture.pdf"  download class="dropdown_link">Fees Structure</a>
+                                    <a href="./Fees_Struture.pdf" target="_blank" class="dropdown_link">Fees Structure</a>
                                 </li>
                                 <li class="dropdowm_list_item">
-                                    <a href="./Application_Form.pdf"  download class="dropdown_link">Application Form</a>
-                                </li>
-                                <li class="dropdowm_list_item">
-                                    <a href="./Prospectus.pdf"  download class="dropdown_link">Payment</a>
-                                </li>
-                                <li class="dropdowm_list_item">
-                                    <a href="./Prospectus.pdf"  download class="dropdown_link">Fees</a>
+                                    <a href="./Ofsted.pdf" target="_blank" class="dropdown_link">Ofsted Report</a>
                                 </li>
                             </ul>
                         </div>
@@ -251,9 +243,9 @@
                         <b-nav-item :to="{ name: 'contact' }" class="text-white header_hover">Contact</b-nav-item>
                     </div>
                     <div class="nav-parent position-relative">
-                        <b-nav-item  class="">
-                        <button class="btn btn-white hover_effect" @click="apply" style="width 156px">Apply Online</button>
-                    </b-nav-item>
+                        <b-nav-item  class="" :to="{ name: 'application' }">
+                            <button class="btn btn-white hover_effect" style="width 156px">Apply Online</button>
+                        </b-nav-item>
                     </div>
                 </b-navbar-nav>
             </b-collapse>
@@ -304,10 +296,6 @@ export default {
         }
     },
     methods: {
-      apply(e) {
-        e.preventDefault();
-        alert("Online Application Form would be launched soon")
-      },
     }
 }
 </script>

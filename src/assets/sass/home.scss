@@ -257,6 +257,10 @@
         z-index: 3;
         position: relative;
         top: 100px;
+        &.policies_cards {
+          top: 80px;
+          text-align: center;
+        }
         &.high_school {
           top: 50px;
         }

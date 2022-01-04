@@ -144,13 +144,13 @@
                <div class="col-md-6 resources">
                    <h4 class="bold_text header_content primary-color">Important Resources</h4>
                    <div class="row justify-content-between resources_first">
-                        <a href="./Fees_Struture.pdf"  download class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
+                        <a href="./Fees_Struture.pdf" target="_blank" class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
                             <div class="circular_div">
                                 <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617820066/fees-structure_aq3rkt.svg"  width="40" />
                             </div>
                             <p class="mt-3 green__text bold_text resources_content">Fee Structure</p>
                         </a>
-                        <a href="./Calendar 2020_2021.pdf"  download class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
+                        <a href="./Calendar 2020_2021.pdf" target="_blank" class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
                             <div class="circular_div">
                                 <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617820067/calendar_d2cfhh.svg"  width="40" />
                             </div>
@@ -158,13 +158,13 @@
                         </a>
                    </div>
                    <div class="row justify-content-between">
-                       <a href="./Application_Form.pdf"  download class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
+                       <a href="./Application_Form.pdf" target="_blank" class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
                             <div class="circular_div">
                                 <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617820066/application-form_nbnry6.svg"  width="40" />
                             </div>
                             <p class="mt-3 green__text bold_text resources_content">Application Form</p>
                         </a>
-                        <a href="./Prospectus.pdf"  download class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
+                        <a href="./Prospectus.pdf" target="_blank" class="col-md-6 home_cards_hover" data-aos="zoom-in" data-aos-duration="2000">
                             <div class="circular_div">
                                 <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1617820066/prospectus_kyd6hk.svg"  width="40" />
                             </div>

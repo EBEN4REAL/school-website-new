@@ -106,17 +106,6 @@
         </div>
         <div class="footer_bottom py-3">
             <div class="footer_bottom_inner_container">
-               <!-- <div>
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731886/logo_qymv7k.png" width="60" class="mr-3" /> 
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731892/ace_efjidj.jpg" width="60"  /> 
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731947/Pace-logo_2_lkxhep.jpg" width="60"  /> 
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731870/icce_small_colour_logo_f4wtdw.jpg" width="127"  />
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731940/Ofsted_Good_GP_cphpz1.jpg" width="60"  /> 
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731953/premier_league_11_emgea3.png" width="120"  /> 
-                    <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731954/premier_league_primary_stars_khxz78.jpg" width="120"  /> 
-
-                    
-                </div>  -->
                 <div>
                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731886/logo_qymv7k.png" width="60" class="mr-3" /> 
                     <img src="https://res.cloudinary.com/dfjzditzc/image/upload/v1620066057/output-onlinepngtools_6_okt4dr.png" width="90"  /> 

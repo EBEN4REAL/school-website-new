@@ -27,6 +27,7 @@ import HighSchool from "@/views/HighSchool"
 import College from "@/views/College"
 import GCSE from "@/views/Gcse"
 import Reasons from "@/views/Reasons"
+import Application from "@/views/Application"
 
 Vue.use(VueRouter);
 
@@ -125,6 +126,11 @@ let routes = [
     name: 'contact',
     path: '/contact',
     component: Contact
+  },
+  {
+    name: 'application',
+    path: '/application',
+    component: Application
   },
   {
     name: 'attendance',

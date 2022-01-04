@@ -71,12 +71,12 @@
                 <div class="col-md-6 admission_media_wrapper" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="admission_media header_hover">
                         <div class="row align-items-center hundred-percent-height">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="icon_centralised_wrapper">
                                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731932/money_4_1_h26ftf.svg" style="width: 40px;">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-9">
                                 <a href="./Fees_Struture.pdf" download >
                                     <h6>Fees</h6>
                                     <div class="card_para">Fees Annual Fees per academic year for a student in one of our Learning Centres:</div>
@@ -91,21 +91,20 @@
                 <div class="col-md-6 admission_media_wrapper" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="admission_media header_hover">
                         <div class="row align-items-center hundred-percent-height">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="icon_centralised_wrapper">
                                     <img src="https://res.cloudinary.com/sol-academy/image/upload/v1608731934/money_nf9erm.svg" style="width: 40px;">
                                 </div>
                             </div>
-                            <div class="col-md-8">
-                                <a href="./Fees_Struture.pdf" download>
-                                     <h6>PAYMENT</h6>
-                                    <div class="card_para">Payment School Fees are payable by standing order in twelve monthly payments:</div>
-                                    <div class="mt-3">
-                                        <small class="bold_text ">Make Payment</small>
-                                    </div>
-                                    
-                                </a>
-                               
+                            <div class="col-md-9">
+                                <h6>PAYMENT</h6>
+                                <div class="card_para">Kindly pay into the account details below, using the child's name as reference:</div>
+                                <div class="mt-3 flex_column">
+                                    <small class="bold_text ">BANK: UBA</small>
+                                    <small class="bold_text ">ACCOUNT NAME: SOL ACADEMY</small>
+                                    <small class="bold_text ">ACCOUNT NUMBER: 2010290190</small>
+                                    <p class="bold_text mt-4">Pay to <a href="./Fees_Struture.pdf">Paypal Account</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>

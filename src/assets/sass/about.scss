@@ -28,6 +28,11 @@
             width: 100%;
             &.no_about_cu {
                 height: auto;
+                .ace_header {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
             }
             .curriculum_content {
                 background-color: #E3F6EB;
@@ -68,7 +73,7 @@
 }
 
 .ace_link {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 798px) {
